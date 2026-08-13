@@ -2,14 +2,17 @@
 """generate — 生成 README。"""
 import os
 
-from core.config import FALLBACK_LANG, GROUP_META_DIR
+from core.config import DEFAULT_LANG, FALLBACK_LANG, GROUP_META_DIR
 from core.render import render
-from core.scanner import load_lang_file
+from core.scanner import load_lang_file, lang_files_in
 
 
 def run(base, lang, out_path=None):
     data_root = os.path.join(base, "project-datas")
     meta_root = os.path.join(base, "project-meta")
+
+    # 所有可用语言（用于渲染语言切换链接）
+    all_langs = lang_files_in(meta_root)
 
     meta = load_lang_file([
         os.path.join(meta_root, f"{lang}.json"),
@@ -46,11 +49,11 @@ def run(base, lang, out_path=None):
 
         groups.append({"meta": gmeta, "projects": projects})
 
-    content = render(meta, groups)
+    content = render(meta, groups, lang, all_langs)
 
     if out_path is None:
         out_path = os.path.join(
-            base, "README.md" if lang == FALLBACK_LANG else f"README.{lang}.md")
+            base, "README.md" if lang == DEFAULT_LANG else f"README.{lang}.md")
 
     with open(out_path, "w", encoding="utf-8") as fh:
         fh.write(content)

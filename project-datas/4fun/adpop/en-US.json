@@ -1,0 +1,18 @@
+{
+  "name": "adpop",
+  "intro": "A general-purpose ad-popup service rendered fully from scratch, callable by other software.",
+  "restores": "Windows-style malicious ad popups (animated images / video / audio / popup spam / non-closable).",
+  "license": "Unspecified",
+  "video": "",
+  "url": "https://github.com/MEKCCK/adpop",
+  "authors": [
+    {
+      "name": "MEKCCK",
+      "url": "https://github.com/MEKCCK"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ]
+}

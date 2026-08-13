@@ -1,0 +1,19 @@
+{
+  "name": "aptx",
+  "intro": "An enhanced apt wrapper that recommends similar software after installing/removing packages.",
+  "restores": "The 'bundleware recommendations' nuisance experience when installing software.",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/WenAnrong/aptx",
+  "authors": [
+    {
+      "name": "WenAnrong",
+      "url": "https://github.com/WenAnrong"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ]
+}

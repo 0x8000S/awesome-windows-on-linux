@@ -25,7 +25,7 @@ if hasattr(sys.stdout, "reconfigure"):
 # 保证能以 python main.py 或 python main.py/目录 方式运行，兼容从任何 cwd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from core.config import FALLBACK_LANG  # noqa: E402
+from core.config import DEFAULT_LANG  # noqa: E402
 from core.scanner import collect  # noqa: E402
 from commands import cl, check, lint, generate, new  # noqa: E402
 
@@ -41,11 +41,12 @@ def main():
     sub = parser.add_subparsers(dest="command")
 
     p_gen = sub.add_parser("generate", help="生成 README（默认命令）")
-    p_gen.add_argument("--lang", default=FALLBACK_LANG, help="目标语言代码，默认 zh-CN")
+    p_gen.add_argument("--lang", default=DEFAULT_LANG,
+                       help=f"目标语言代码，默认 {DEFAULT_LANG}")
     p_gen.add_argument("--out", default=None, help="输出文件路径")
     p_gen.set_defaults(func=lambda a: generate.run(_project_base(), a.lang, a.out))
 
-    sub.add_parser("new", help="交互式创建新项目条目")
+    sub.add_parser("new", help="交互式创建新项目条目（按系统语言）")
     sub.add_parser("cl", help="检查语言不对称（cl = check-language）")
     sub.add_parser("check", help="检查多定义/少定义（字段缺失、多余、重复 ID）")
     sub.add_parser("lint", help="综合检查（cl + check），适合 CI")
@@ -55,8 +56,8 @@ def main():
     base = _project_base()
 
     if not args.command:
-        # 默认命令 = generate
-        generate.run(base, FALLBACK_LANG, None)
+        # 默认命令 = generate（默认语言）
+        generate.run(base, DEFAULT_LANG, None)
         return
 
     if args.command in ("cl", "check", "lint"):
@@ -72,7 +73,8 @@ def main():
         return
 
     if args.command == "new":
-        sys.exit(new.run(base))
+        ui_lang = new.detect_ui_lang()
+        sys.exit(new.run(base, ui_lang=ui_lang))
         return
 
     if args.command == "generate":

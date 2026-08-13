@@ -1,0 +1,22 @@
+{
+  "name": "bsod",
+  "intro": "A blue-screen demo tool that renders directly on the Linux physical display, grabbing DRM Master, with multi-language and log monitoring.",
+  "restores": "The Win10 Blue Screen of Death interface (with QR code).",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/heyManNice/bsod",
+  "authors": [
+    {
+      "name": "heyManNice",
+      "url": "https://github.com/heyManNice"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN",
+    "zh-TW",
+    "ja",
+    "ko"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "mmclinux",
+  "intro": "A cross-platform tool mimicking the Windows Management Console, built with tkinter.",
+  "restores": "The MMC console (MDI child windows, snap-ins, window embedding).",
+  "license": "MIT",
+  "video": "",
+  "url": "https://gitee.com/windowsuninstaller/mmclinux",
+  "authors": [
+    {
+      "name": "WindowsUninstaller",
+      "url": "https://gitee.com/windowsuninstaller"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ]
+}

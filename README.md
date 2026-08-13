@@ -1,206 +1,208 @@
 # Awesome Windows on Linux (Only funny)
 
-> 把 Windows 的「体验」搬到 Linux 上的项目合集 —— 从硬核逆向到恶趣味整活，一网打尽。
+> A collection of projects that bring the Windows experience to Linux — from hardcore reverse engineering to hilarious pranks.
+
+**en-US** | [zh-CN](README.zh-CN.md)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。按「整活浓度」从高到低排列，分为**硬核逆向**、**实用工具**、**GUI 复刻**、**整活恶搞**四大类。
+This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Sorted roughly by 'fun factor', grouped into four categories: **hardcore reverse engineering**, **practical tools**, **GUI replicas**, and **pranks**.
 
 ---
 
-## 目录
+## Contents
 
-- [实用工具](#实用工具)
-- [硬核逆向 / 底层格式](#硬核逆向--底层格式)
-- [GUI 复刻](#gui-复刻)
-- [整活恶搞](#整活恶搞)
+- [Practical Tools](#practical-tools)
+- [Hardcore Reverse Engineering](#hardcore-reverse-engineering)
+- [GUI Replicas](#gui-replicas)
+- [Pranks](#pranks)
 
 ---
 
-## 实用工具
+## Practical Tools
 
-> 能把 Windows 工具链带到 Linux 的「瑞士军刀」。
+> Bring the Windows toolchain to Linux — the 'Swiss Army Knife'.
 
 ### [aptx](https://github.com/WenAnrong/aptx)
 
-介绍：apt 的增强封装，装 / 卸软件后自动推荐同类软件。
+Intro: An enhanced apt wrapper that recommends similar software after installing/removing packages.
 
-还原的部分：装软件时的「全家桶推荐」流氓体验。
+Restores: The 'bundleware recommendations' nuisance experience when installing software.
 
-- 许可证：MIT
-- 作者：[WenAnrong](https://github.com/WenAnrong)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [WenAnrong](https://github.com/WenAnrong)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
 
 ### [cmd](https://github.com/ChenPi11/cmd)
 
-介绍：从零用纯 C89 忠实重写 Windows `cmd.exe` 的命令解释器，纯 POSIX 零依赖，能跑在任何 Unix 上。
+Intro: A faithful reimplementation of Windows `cmd.exe` written from scratch in pure C89, with zero POSIX dependencies, running on any Unix.
 
-还原的部分：Windows `cmd.exe` 命令行解释器（批处理、管道重定向、40+ 内置命令）。
+Restores: The Windows `cmd.exe` command interpreter (batch scripting, pipes/redirection, 40+ built-in commands).
 
-- 许可证：GPL-3.0
-- 作者：[ChenPi11](https://github.com/ChenPi11)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN / zh-MS / zh-WY
-- 介绍视频：（待补充）
+- License: GPL-3.0
+- Authors: [ChenPi11](https://github.com/ChenPi11)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN / zh-MS / zh-WY
+- Intro video: (pending)
 
 ### [runbox](https://github.com/HelloAIXIAOJI/runbox)
 
-介绍：Linux 上按下 `Super+R` 弹出的运行对话框，Adwaita 外观随系统主题。
+Intro: A run dialog on Linux that pops up with `Super+R`, with an Adwaita look following the system theme.
 
-还原的部分：Win+R「运行」对话框。
+Restores: The Win+R 'Run' dialog.
 
-- 许可证：MIT
-- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
 
 ### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
 
-介绍：用 Rust 重写的 Windows 命令行工具合集，跨平台运行。
+Intro: A collection of Windows command-line tools rewritten in Rust, running cross-platform.
 
-还原的部分：24 个 Windows 命令行工具（ipconfig / ping / robocopy / systeminfo…）。
+Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo...).
 
-- 许可证：MIT
-- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
 
-## 硬核逆向 / 底层格式
+## Hardcore Reverse Engineering
 
-> 正经技术项目：研究 Windows 程序怎么在 Linux 上存活。
+> Serious tech projects: how Windows programs can survive on Linux.
 
 ### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
-介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
+Intro: A binary conversion tool that offline-converts Windows PE executables into Linux ELF at the file-format level.
 
-还原的部分：PE / ELF 文件格式结构（头、节表、程序头、动态段）。
+Restores: PE / ELF file format structures (header, section table, program headers, dynamic segment).
 
-- 许可证：MIT
-- 作者：[dyz131005](https://github.com/dyz131005)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [dyz131005](https://github.com/dyz131005)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
 
-## GUI 复刻
+## GUI Replicas
 
-> 复刻 Windows 桌面 GUI 体验。
+> Replicate the Windows desktop GUI experience.
 
 ### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux)
 
-介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
+Intro: A desktop program that deeply replicates the Win11 file-management experience on Linux.
 
-还原的部分：Win11 资源管理器界面（含经典「未响应」体验）。
+Restores: The Win11 File Explorer interface (including the classic 'Not Responding' experience).
 
-- 许可证：未标注
-- 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：（待补充）
+- License: Unspecified
+- Authors: [macOS-Terminal](https://github.com/macOS-Terminal)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
 
-介绍：仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。
+Intro: A cross-platform tool mimicking the Windows Management Console, built with tkinter.
 
-还原的部分：MMC 管理控制台（MDI 子窗口、管理单元、窗口嵌套）。
+Restores: The MMC console (MDI child windows, snap-ins, window embedding).
 
-- 许可证：MIT
-- 作者：[WindowsUninstaller](https://gitee.com/windowsuninstaller)
-- 主要语言：zh-CN
-- 支持语言：zh-CN / en-US
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [WindowsUninstaller](https://gitee.com/windowsuninstaller)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
 
 ### [regedit](https://github.com/heyManNice/regedit)
 
-介绍：把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。
+Intro: A system configuration file browser that maps `/etc`, `~/.config`, and `/boot` to a registry tree and auto-detects multiple config formats.
 
-还原的部分：注册表编辑器界面（左侧树 + 右侧键值）。
+Restores: The registry editor interface (left tree + right key/value list).
 
-- 许可证：GPL-3.0（README 声明，未附 LICENSE 文件）
-- 作者：[heyManNice](https://github.com/heyManNice)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：（待补充）
+- License: GPL-3.0 (declared in README; no LICENSE file shipped)
+- Authors: [heyManNice](https://github.com/heyManNice)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
 
-## 整活恶搞
+## Pranks
 
-> 纯整活，别在生产机器上乱跑。
+> Pure fun — don't run these on production machines.
 
 ### [adpop](https://github.com/MEKCCK/adpop)
 
-介绍：完全自绘渲染、供其他软件调用的通用广告弹窗服务。
+Intro: A general-purpose ad-popup service rendered fully from scratch, callable by other software.
 
-还原的部分：仿 Windows 流氓广告弹窗（动图 / 视频 / 音频 / 弹窗轰炸 / 流氓关闭）。
+Restores: Windows-style malicious ad popups (animated images / video / audio / popup spam / non-closable).
 
-- 许可证：未标注
-- 作者：[MEKCCK](https://github.com/MEKCCK)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：（待补充）
+- License: Unspecified
+- Authors: [MEKCCK](https://github.com/MEKCCK)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
 
 ### [bsod](https://github.com/heyManNice/bsod)
 
-介绍：在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。
+Intro: A blue-screen demo tool that renders directly on the Linux physical display, grabbing DRM Master, with multi-language and log monitoring.
 
-还原的部分：Win10 蓝屏死机界面（含二维码）。
+Restores: The Win10 Blue Screen of Death interface (with QR code).
 
-- 许可证：MIT
-- 作者：[heyManNice](https://github.com/heyManNice)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN / zh-TW / ja / ko
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [heyManNice](https://github.com/heyManNice)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN / zh-TW / ja / ko
+- Intro video: (pending)
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
-介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
+Intro: A prank program showing a fake Windows update screen: 50% chance of a real update+reboot, 50% chance of a blue screen.
 
-还原的部分：Windows 更新界面（成功进度 / 失败蓝屏）。
+Restores: The Windows update screen (success progress / failure blue screen).
 
-- 许可证：MIT
-- 作者：[WenAnrong](https://github.com/WenAnrong)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- License: MIT
+- Authors: [WenAnrong](https://github.com/WenAnrong)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
 
 ---
 
-## 贡献
+## Contribute
 
-欢迎提交 PR 补充更多「Windows on Linux」项目。条目建议包含：项目链接、许可证、作者、主要 / 支持语言、一句话介绍、还原的部分。
+Welcome to submit PRs to add more "Windows on Linux" projects. Each entry should include: project link, license, authors, primary/supported languages, a one-line intro, and what Windows part it restores.
 
-### 创建自己的项目条目
+### Create your own project entry
 
-使用交互式命令创建新项目条目，无需手动建文件夹：
+Use the interactive command to create a new project entry without manually creating folders:
 
 ```bash
 python main.py new
 ```
 
-1. 从列表中选择目标组（如「实用工具」）。
-2. 输入项目名（英文 ID，仅允许字母、数字、连字符、下划线）。
-3. 脚本会自动按 project-meta 的语言基准生成对应语言的 JSON 文件。
+1. Pick a target group from the list (e.g. "Practical Tools").
+2. Enter a project name (English ID; only letters, digits, hyphens, and underscores allowed).
+3. The script automatically generates JSON files for every language in the project-meta language set.
 
-创建后编辑生成的 JSON，填入以下字段：
+After creation, edit the generated JSON and fill in these fields:
 
-- `url`：项目仓库地址
-- `intro`：一句话介绍（这个项目是做什么的）
-- `restores`：还原了 Windows 的哪个部分
-- `license`：开源许可证
-- `authors`：作者列表（每项含 `name` 与 `url`）
+- `url`: the project repository URL
+- `intro`: a one-line intro (what this project does)
+- `restores`: which Windows part it restores
+- `license`: the open-source license
+- `authors`: a list of authors (each with `name` and `url`)
 
-编辑完成后重新生成并校验：
+Then regenerate and validate:
 
 ```bash
-python main.py generate   # 重新生成 README
-python main.py lint       # 校验数据一致性
+python main.py generate   # regenerate README
+python main.py lint       # validate data consistency
 ```
 
 ---
 
-## 许可
+## License
 
 [MIT](LICENSE) © 2026 windowix

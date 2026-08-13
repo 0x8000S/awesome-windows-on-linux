@@ -1,0 +1,19 @@
+{
+  "name": "Windowshit",
+  "intro": "A collection of Windows command-line tools rewritten in Rust, running cross-platform.",
+  "restores": "24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo...).",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/HelloAIXIAOJI/windowshit",
+  "authors": [
+    {
+      "name": "HelloAIXIAOJI",
+      "url": "https://github.com/HelloAIXIAOJI"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ]
+}

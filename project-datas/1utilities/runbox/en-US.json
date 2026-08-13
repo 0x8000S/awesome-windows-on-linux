@@ -1,0 +1,19 @@
+{
+  "name": "runbox",
+  "intro": "A run dialog on Linux that pops up with `Super+R`, with an Adwaita look following the system theme.",
+  "restores": "The Win+R 'Run' dialog.",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/HelloAIXIAOJI/runbox",
+  "authors": [
+    {
+      "name": "HelloAIXIAOJI",
+      "url": "https://github.com/HelloAIXIAOJI"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ]
+}

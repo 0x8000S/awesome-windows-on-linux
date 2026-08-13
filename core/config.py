@@ -3,7 +3,12 @@
 
 # 固定的元数据目录名
 GROUP_META_DIR = "awol-group-metadata"
-FALLBACK_LANG = "zh-CN"
+
+# 数据缺失时的回退语言
+FALLBACK_LANG = "en-US"
+
+# 默认生成 README 的语言
+DEFAULT_LANG = "en-US"
 
 # 各实体的必需字段（少定义检查基准）
 REQUIRED_FIELDS = {

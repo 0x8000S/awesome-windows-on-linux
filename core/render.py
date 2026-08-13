@@ -1,5 +1,30 @@
 # -*- coding: utf-8 -*-
 """把 meta + groups 渲染为 README markdown 文本。"""
+from .config import DEFAULT_LANG
+
+
+def _language_switcher(current_lang, all_langs):
+    """生成语言切换链接行。
+
+    - 默认语言（DEFAULT_LANG）链接到 README.md
+    - 其他语言链接到 README.<lang>.md
+    - 当前语言加粗标记
+    返回空字符串表示无需切换（只有一种语言）。
+    """
+    if not all_langs or len(all_langs) < 2:
+        return ""
+    parts = []
+    for lang in all_langs:
+        label = lang
+        if lang == DEFAULT_LANG:
+            href = "README.md"
+        else:
+            href = f"README.{lang}.md"
+        if lang == current_lang:
+            parts.append(f"**{label}**")
+        else:
+            parts.append(f"[{label}]({href})")
+    return " | ".join(parts)
 
 
 def slugify(name):
@@ -11,7 +36,7 @@ def slugify(name):
     return s
 
 
-def render(meta, groups):
+def render(meta, groups, lang, all_langs):
     fields = meta.get("fields", {})
     f_intro = fields.get("intro", "介绍")
     f_restores = fields.get("restores", "还原的部分")
@@ -22,11 +47,21 @@ def render(meta, groups):
     f_video = fields.get("video", "介绍视频")
     f_video_pending = fields.get("video_pending", "（待补充）")
 
+    # 冒号：中文用全角，其他语言用半角
+    colon = "：" if lang.startswith("zh") else ": "
+
     lines = []
     lines.append(f"# {meta['title']}")
     lines.append("")
     lines.append(f"> {meta['tagline']}")
     lines.append("")
+
+    # 语言切换链接（README.md 默认 + README.<lang>.md 其他）
+    switcher = _language_switcher(lang, all_langs)
+    if switcher:
+        lines.append(switcher)
+        lines.append("")
+
     lines.append("[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)")
     lines.append(f"[![License: {meta['license']}]"
                  f"(https://img.shields.io/badge/License-{meta['license']}-blue.svg)]"
@@ -60,21 +95,21 @@ def render(meta, groups):
         for p in g["projects"]:
             lines.append(f"### [{p['name']}]({p['url']})")
             lines.append("")
-            lines.append(f"{f_intro}：{p['intro']}")
+            lines.append(f"{f_intro}{colon}{p['intro']}")
             lines.append("")
-            lines.append(f"{f_restores}：{p['restores']}")
+            lines.append(f"{f_restores}{colon}{p['restores']}")
             lines.append("")
-            lines.append(f"- {f_license}：" + p["license"])
+            lines.append(f"- {f_license}{colon}" + p["license"])
             # 作者数组
             authors = p.get("authors", [])
             author_links = [f"[{a['name']}]({a['url']})" for a in authors]
-            lines.append(f"- {f_authors}：" + "、".join(author_links))
+            lines.append(f"- {f_authors}{colon}" + "、".join(author_links))
             # 语言
-            lines.append(f"- {f_lang_primary}：" + p.get("lang_primary", ""))
+            lines.append(f"- {f_lang_primary}{colon}" + p.get("lang_primary", ""))
             supported = p.get("lang_supported", [])
-            lines.append(f"- {f_lang_supported}：" + " / ".join(supported))
+            lines.append(f"- {f_lang_supported}{colon}" + " / ".join(supported))
             video = p.get("video", "")
-            lines.append(f"- {f_video}：{video if video else f_video_pending}")
+            lines.append(f"- {f_video}{colon}{video if video else f_video_pending}")
             lines.append("")
 
     # 贡献
