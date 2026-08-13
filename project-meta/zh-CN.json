@@ -1,0 +1,23 @@
+{
+  "title": "Awesome Windows on Linux (Only funny)",
+  "tagline": "把 Windows 的「体验」搬到 Linux 上的项目合集 —— 从硬核逆向到恶趣味整活，一网打尽。",
+  "description": "这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。按「整活浓度」从高到低排列，分为**硬核逆向**、**实用工具**、**GUI 复刻**、**整活恶搞**四大类。",
+  "notice": "「介绍」说明项目本身，「还原的部分」说明它复刻了 Windows 的哪个部分。介绍视频为占位，作者后续补充。语言使用国际代码（BCP 47）。",
+  "toc_title": "目录",
+  "contribute_title": "贡献",
+  "contribute_text": "欢迎提交 PR 补充更多「Windows on Linux」项目。条目建议包含：项目链接、许可证、作者、主要 / 支持语言、一句话介绍、还原的部分。",
+  "license_title": "许可",
+  "license": "MIT",
+  "license_link": "LICENSE",
+  "year": 2026,
+  "owner": "windowix",
+  "fields": {
+    "intro": "介绍",
+    "restores": "还原的部分",
+    "license": "许可证",
+    "author": "作者",
+    "lang": "语言",
+    "video": "介绍视频",
+    "video_pending": "（待补充）"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mmclinux",
+  "name": "mmclinux",
+  "url": "https://gitee.com/windowsuninstaller/mmclinux",
+  "intro": "仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。",
+  "restores": "MMC 管理控制台（MDI 子窗口、管理单元、窗口嵌套）。",
+  "license": "MIT",
+  "author": "WindowsUninstaller",
+  "author_url": "https://gitee.com/windowsuninstaller",
+  "lang": "zh-CN / en-US",
+  "video": ""
+}

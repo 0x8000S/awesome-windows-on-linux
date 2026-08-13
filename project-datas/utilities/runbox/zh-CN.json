@@ -1,0 +1,12 @@
+{
+  "id": "runbox",
+  "name": "runbox",
+  "url": "https://github.com/HelloAIXIAOJI/runbox.git",
+  "intro": "Linux 上按下 `Super+R` 弹出的运行对话框，Adwaita 外观随系统主题。",
+  "restores": "Win+R「运行」对话框。",
+  "license": "MIT",
+  "author": "Yang Borui",
+  "author_url": "https://github.com/HelloAIXIAOJI",
+  "lang": "en-US / zh-CN",
+  "video": ""
+}

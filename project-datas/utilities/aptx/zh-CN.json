@@ -1,0 +1,12 @@
+{
+  "id": "aptx",
+  "name": "aptx",
+  "url": "https://github.com/WenAnrong/aptx",
+  "intro": "apt 的增强封装，装 / 卸软件后自动推荐同类软件。",
+  "restores": "装软件时的「全家桶推荐」流氓体验。",
+  "license": "MIT",
+  "author": "WenAnrong",
+  "author_url": "https://github.com/WenAnrong",
+  "lang": "en-US / zh-CN",
+  "video": ""
+}
