@@ -7,7 +7,7 @@ FALLBACK_LANG = "zh-CN"
 
 # 各实体的必需字段（少定义检查基准）
 REQUIRED_FIELDS = {
-    "meta": ["title", "tagline", "description", "notice", "toc_title",
+    "meta": ["title", "tagline", "description", "toc_title",
              "contribute_title", "contribute_text", "license_title",
              "license", "license_link", "year", "owner"],
     "group": ["name", "note"],

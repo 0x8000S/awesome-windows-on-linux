@@ -34,8 +34,10 @@ def render(meta, groups):
     lines.append("")
     lines.append(meta["description"])
     lines.append("")
-    lines.append(f"> **阅读说明**：{meta['notice']}")
-    lines.append("")
+    # 阅读说明可选：有值才输出
+    if meta.get("notice"):
+        lines.append(f"> **阅读说明**：{meta['notice']}")
+        lines.append("")
     lines.append("---")
     lines.append("")
 
