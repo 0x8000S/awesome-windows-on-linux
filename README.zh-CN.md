@@ -149,7 +149,7 @@
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1CxgJ6pEHr
 
-### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux) [整活]
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
 
 介绍：用 C++/Qt 6 实现的 Windows 11 风格 Ctrl+Alt+Delete 安全选项屏，支持 X11 与 Wayland（GNOME/KDE/Sway/Hyprland/Niri）。
 
@@ -308,4 +308,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 17:46 UTC*
+*生成于: 2026-08-13 18:20 UTC*

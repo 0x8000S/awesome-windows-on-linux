@@ -149,7 +149,7 @@ Restores: The Win+R 'Run' dialog.
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1CxgJ6pEHr
 
-### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux) [Prank]
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
 
 Intro: A Windows 11-style Ctrl+Alt+Delete secure attention screen implemented in C++/Qt 6, supporting X11 and Wayland (GNOME/KDE/Sway/Hyprland/Niri).
 
@@ -157,8 +157,8 @@ Restores: The Windows 11 secure attention screen (lock / switch user / log out /
 
 - License: Unspecified
 - Authors: [macOS-Terminal](https://github.com/macOS-Terminal)
-- Primary language: en-US
-- Supported languages: en-US
+- Primary language: zh-CN
+- Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1FQgn6sERt
 
 ## System Interaction
@@ -308,4 +308,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 17:46 UTC*
+*Generated at: 2026-08-13 18:20 UTC*
