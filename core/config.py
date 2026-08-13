@@ -8,8 +8,8 @@ FALLBACK_LANG = "zh-CN"
 # 各实体的必需字段（少定义检查基准）
 REQUIRED_FIELDS = {
     "meta": ["title", "tagline", "description", "toc_title",
-             "contribute_title", "contribute_text", "license_title",
-             "license", "license_link", "year", "owner"],
+             "contribute_title", "contribute_text", "guide_title", "guide",
+             "license_title", "license", "license_link", "year", "owner"],
     "group": ["name", "note"],
     "project": ["name", "url", "intro", "restores", "license",
                 "authors", "lang_primary", "lang_supported"],

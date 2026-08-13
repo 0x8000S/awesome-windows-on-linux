@@ -77,12 +77,25 @@ def render(meta, groups):
             lines.append(f"- {f_video}：{video if video else f_video_pending}")
             lines.append("")
 
-    # 贡献 / 许可
+    # 贡献
     lines.append("---")
     lines.append("")
     lines.append(f"## {meta.get('contribute_title', '贡献')}")
     lines.append("")
     lines.append(meta.get("contribute_text", ""))
+    lines.append("")
+
+    # 教程（创建自己的项目条目）
+    guide_title = meta.get("guide_title", "")
+    guide = meta.get("guide", [])
+    if guide_title and guide:
+        lines.append(f"### {guide_title}")
+        lines.append("")
+        lines.extend(guide)
+        lines.append("")
+
+    # 许可
+    lines.append("---")
     lines.append("")
     lines.append(f"## {meta.get('license_title', '许可')}")
     lines.append("")

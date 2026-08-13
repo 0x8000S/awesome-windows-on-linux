@@ -3,6 +3,7 @@
 
 子命令:
     generate [--lang L] [--out F]   生成 README（默认命令）
+    new                             交互式创建新项目条目（选组、填项目名、生成全部语言 JSON）
     cl                              检查语言不对称（cl = check-language）
     check                           检查多定义 / 少定义（字段缺失、多余、重复 ID）
     lint                            综合检查（cl + check），适合 CI
@@ -26,7 +27,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from core.config import FALLBACK_LANG  # noqa: E402
 from core.scanner import collect  # noqa: E402
-from commands import cl, check, lint, generate  # noqa: E402
+from commands import cl, check, lint, generate, new  # noqa: E402
 
 
 def _project_base():
@@ -44,6 +45,7 @@ def main():
     p_gen.add_argument("--out", default=None, help="输出文件路径")
     p_gen.set_defaults(func=lambda a: generate.run(_project_base(), a.lang, a.out))
 
+    sub.add_parser("new", help="交互式创建新项目条目")
     sub.add_parser("cl", help="检查语言不对称（cl = check-language）")
     sub.add_parser("check", help="检查多定义/少定义（字段缺失、多余、重复 ID）")
     sub.add_parser("lint", help="综合检查（cl + check），适合 CI")
@@ -67,6 +69,10 @@ def main():
             issues = lint.run(collector)
         rc = issues.print(args.command)
         sys.exit(rc)
+        return
+
+    if args.command == "new":
+        sys.exit(new.run(base))
         return
 
     if args.command == "generate":
