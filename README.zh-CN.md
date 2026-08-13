@@ -1,5 +1,7 @@
 # Awesome Windows on Linux (Only funny)
 
+<p align="center"><img src="awologo.png" alt="Awesome Windows on Linux Logo" width="520"></p>
+
 > 把 Windows 的「体验」搬到 Linux 上的项目合集 —— 从硬核逆向到恶趣味整活，一网打尽。
 
 [en-US](README.md) | **zh-CN**
@@ -285,4 +287,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 14:47 UTC*
+*生成于: 2026-08-13 14:57 UTC*

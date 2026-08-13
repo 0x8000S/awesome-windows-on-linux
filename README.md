@@ -1,5 +1,7 @@
 # Awesome Windows on Linux (Only funny)
 
+<p align="center"><img src="awologo.png" alt="Awesome Windows on Linux Logo" width="520"></p>
+
 > A collection of projects that bring the Windows experience to Linux — from hardcore reverse engineering to hilarious pranks.
 
 **en-US** | [zh-CN](README.zh-CN.md)
@@ -285,4 +287,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:47 UTC*
+*Generated at: 2026-08-13 14:57 UTC*

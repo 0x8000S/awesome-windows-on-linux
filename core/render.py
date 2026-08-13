@@ -54,6 +54,14 @@ def render(meta, groups, lang, all_langs, generated_at=""):
     lines = []
     lines.append(f"# {meta['title']}")
     lines.append("")
+
+    # Logo（多语言 alt）
+    logo_path = meta.get("logo", "")
+    if logo_path:
+        logo_alt = meta.get("logo_alt") or meta.get("logo_alt_zh", meta["title"])
+        lines.append(f"<p align=\"center\"><img src=\"{logo_path}\" alt=\"{logo_alt}\" width=\"520\"></p>")
+        lines.append("")
+
     lines.append(f"> {meta['tagline']}")
     lines.append("")
 
