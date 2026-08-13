@@ -43,7 +43,7 @@
 - 作者：[windowix](https://github.com/windowix)、[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1mMgs6gET6
 
 ## 实用工具
 
@@ -304,4 +304,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 15:57 UTC*
+*生成于: 2026-08-13 16:08 UTC*

@@ -43,7 +43,7 @@ Restores: Curating and organizing projects that recreate Windows.
 - Authors: [windowix](https://github.com/windowix), [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1mMgs6gET6
 
 ## Practical Tools
 
@@ -304,4 +304,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 15:57 UTC*
+*Generated at: 2026-08-13 16:08 UTC*

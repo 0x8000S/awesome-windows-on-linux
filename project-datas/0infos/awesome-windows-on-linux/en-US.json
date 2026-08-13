@@ -3,6 +3,7 @@
   "intro": "A curated collection of open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux.",
   "restores": "Curating and organizing projects that recreate Windows.",
   "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1mMgs6gET6",
   "url": "https://github.com/windowix/awesome-windows-on-linux",
   "authors": [
     {
