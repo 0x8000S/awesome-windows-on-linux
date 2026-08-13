@@ -32,7 +32,8 @@
 
 - 许可证：MIT
 - 作者：[WenAnrong](https://github.com/WenAnrong)
-- 语言：en-US / zh-CN
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
 - 介绍视频：（待补充）
 
 ### [cmd](https://github.com/ChenPi11/cmd)
@@ -43,36 +44,39 @@
 
 - 许可证：GPL-3.0
 - 作者：[ChenPi11](https://github.com/ChenPi11)
-- 语言：en-US / zh-CN / zh-MS / zh-WY
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN / zh-MS / zh-WY
 - 介绍视频：（待补充）
 
-### [runbox](https://github.com/HelloAIXIAOJI/runbox.git)
+### [runbox](https://github.com/HelloAIXIAOJI/runbox)
 
 介绍：Linux 上按下 `Super+R` 弹出的运行对话框，Adwaita 外观随系统主题。
 
 还原的部分：Win+R「运行」对话框。
 
 - 许可证：MIT
-- 作者：[Yang Borui](https://github.com/HelloAIXIAOJI)
-- 语言：en-US / zh-CN
+- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
 - 介绍视频：（待补充）
 
-### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit.git)
+### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
 
 介绍：用 Rust 重写的 Windows 命令行工具合集，跨平台运行。
 
 还原的部分：24 个 Windows 命令行工具（ipconfig / ping / robocopy / systeminfo…）。
 
 - 许可证：MIT
-- 作者：[Yang Borui](https://github.com/HelloAIXIAOJI)
-- 语言：en-US / zh-CN
+- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
 - 介绍视频：（待补充）
 
 ## 硬核逆向 / 底层格式
 
 > 正经技术项目：研究 Windows 程序怎么在 Linux 上存活。
 
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows/)
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
 介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
 
@@ -80,7 +84,8 @@
 
 - 许可证：MIT
 - 作者：[dyz131005](https://github.com/dyz131005)
-- 语言：zh-CN
+- 主要语言：zh-CN
+- 支持语言：zh-CN
 - 介绍视频：（待补充）
 
 ## GUI 复刻
@@ -95,7 +100,8 @@
 
 - 许可证：未标注
 - 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
-- 语言：zh-CN
+- 主要语言：zh-CN
+- 支持语言：zh-CN
 - 介绍视频：（待补充）
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
@@ -106,7 +112,8 @@
 
 - 许可证：MIT
 - 作者：[WindowsUninstaller](https://gitee.com/windowsuninstaller)
-- 语言：zh-CN / en-US
+- 主要语言：zh-CN
+- 支持语言：zh-CN / en-US
 - 介绍视频：（待补充）
 
 ### [regedit](https://github.com/heyManNice/regedit)
@@ -117,7 +124,8 @@
 
 - 许可证：GPL-3.0（README 声明，未附 LICENSE 文件）
 - 作者：[heyManNice](https://github.com/heyManNice)
-- 语言：zh-CN
+- 主要语言：zh-CN
+- 支持语言：zh-CN
 - 介绍视频：（待补充）
 
 ## 整活恶搞
@@ -132,7 +140,8 @@
 
 - 许可证：未标注
 - 作者：[MEKCCK](https://github.com/MEKCCK)
-- 语言：zh-CN
+- 主要语言：zh-CN
+- 支持语言：zh-CN
 - 介绍视频：（待补充）
 
 ### [bsod](https://github.com/heyManNice/bsod)
@@ -143,7 +152,8 @@
 
 - 许可证：MIT
 - 作者：[heyManNice](https://github.com/heyManNice)
-- 语言：en-US / zh-CN / zh-TW / ja / ko
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN / zh-TW / ja / ko
 - 介绍视频：（待补充）
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
@@ -154,7 +164,8 @@
 
 - 许可证：MIT
 - 作者：[WenAnrong](https://github.com/WenAnrong)
-- 语言：en-US / zh-CN
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
 - 介绍视频：（待补充）
 
 ---

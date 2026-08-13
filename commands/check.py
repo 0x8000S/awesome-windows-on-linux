@@ -2,7 +2,8 @@
 """check — 检查多定义/少定义（字段缺失、多余字段、重复 ID）。"""
 import os
 
-from core.config import FALLBACK_LANG, REQUIRED_FIELDS, KNOWN_EXTRA_FIELDS
+from core.config import (FALLBACK_LANG, REQUIRED_FIELDS, KNOWN_EXTRA_FIELDS,
+                         AUTHOR_FIELDS)
 from core.issues import IssueCollector
 from core.scanner import load_lang_file
 
@@ -14,6 +15,33 @@ def _check_unknown_fields(data, scope, kind, issues):
         if key not in known:
             issues.add("warn", scope,
                        f"未识别的字段: '{key}'（若是有意新增请加入 KNOWN_EXTRA_FIELDS）")
+
+
+def _check_authors(authors, scope, issues):
+    """检查 authors 数组的结构。"""
+    if not isinstance(authors, list):
+        issues.add("error", scope, "authors 必须是数组")
+        return
+    for i, a in enumerate(authors):
+        if not isinstance(a, dict):
+            issues.add("error", scope, f"authors[{i}] 必须是对象")
+            continue
+        for f in AUTHOR_FIELDS:
+            if f not in a or not str(a.get(f, "")).strip():
+                issues.add("error", scope, f"authors[{i}] 缺少字段: {f}")
+
+
+def _check_langs(pd, scope, issues):
+    """检查 lang_primary / lang_supported。"""
+    primary = pd.get("lang_primary")
+    if not primary:
+        issues.add("error", scope, "缺少 lang_primary")
+    supported = pd.get("lang_supported")
+    if not isinstance(supported, list) or not supported:
+        issues.add("error", scope, "lang_supported 必须是非空数组")
+    elif primary and primary not in supported:
+        issues.add("warn", scope,
+                   f"lang_primary '{primary}' 不在 lang_supported 中")
 
 
 def run(collector, verbose=True):
@@ -41,25 +69,26 @@ def run(collector, verbose=True):
             pd = load_lang_file([os.path.join(p["dir"], f"{FALLBACK_LANG}.json")])
             if pd is None:
                 continue
+            scope = f"项目 [{g['id']}/{p['id']}]"
             for f in REQUIRED_FIELDS["project"]:
                 if f not in pd:
-                    issues.add("error", f"项目 [{g['id']}/{p['id']}]",
-                               f"缺少必需字段: {f}")
-            _check_unknown_fields(pd, f"项目 [{g['id']}/{p['id']}]", "project", issues)
+                    issues.add("error", scope, f"缺少必需字段: {f}")
+            _check_unknown_fields(pd, scope, "project", issues)
+            _check_authors(pd.get("authors"), scope, issues)
+            _check_langs(pd, scope, issues)
 
-            # 重复 ID：同一 id 出现在不同组
-            pid = pd.get("id") or p["id"]
+            # 重复 ID：用目录名作为 ID
+            pid = p["id"]
             if pid in seen_ids and seen_ids[pid] != g["id"]:
-                issues.add("error", f"项目 [{g['id']}/{p['id']}]",
+                issues.add("error", scope,
                            f"ID '{pid}' 已在组 [{seen_ids[pid]}] 中定义过（重复定义）")
             else:
                 seen_ids[pid] = g["id"]
 
             # 空值检查
-            for f in ["url", "intro", "restores", "license", "author", "author_url"]:
+            for f in ["url", "intro", "restores", "license"]:
                 if f in pd and not str(pd[f]).strip():
-                    issues.add("warn", f"项目 [{g['id']}/{p['id']}]",
-                               f"字段 '{f}' 为空")
+                    issues.add("warn", scope, f"字段 '{f}' 为空")
 
     return issues
 

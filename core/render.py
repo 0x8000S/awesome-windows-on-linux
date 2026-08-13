@@ -16,8 +16,9 @@ def render(meta, groups):
     f_intro = fields.get("intro", "介绍")
     f_restores = fields.get("restores", "还原的部分")
     f_license = fields.get("license", "许可证")
-    f_author = fields.get("author", "作者")
-    f_lang = fields.get("lang", "语言")
+    f_authors = fields.get("authors", "作者")
+    f_lang_primary = fields.get("lang_primary", "主要语言")
+    f_lang_supported = fields.get("lang_supported", "支持语言")
     f_video = fields.get("video", "介绍视频")
     f_video_pending = fields.get("video_pending", "（待补充）")
 
@@ -62,8 +63,14 @@ def render(meta, groups):
             lines.append(f"{f_restores}：{p['restores']}")
             lines.append("")
             lines.append(f"- {f_license}：" + p["license"])
-            lines.append(f"- {f_author}：[{p['author']}]({p['author_url']})")
-            lines.append(f"- {f_lang}：" + p["lang"])
+            # 作者数组
+            authors = p.get("authors", [])
+            author_links = [f"[{a['name']}]({a['url']})" for a in authors]
+            lines.append(f"- {f_authors}：" + "、".join(author_links))
+            # 语言
+            lines.append(f"- {f_lang_primary}：" + p.get("lang_primary", ""))
+            supported = p.get("lang_supported", [])
+            lines.append(f"- {f_lang_supported}：" + " / ".join(supported))
             video = p.get("video", "")
             lines.append(f"- {f_video}：{video if video else f_video_pending}")
             lines.append("")

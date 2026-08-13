@@ -1,12 +1,18 @@
 {
-  "id": "explorer-for-linux",
   "name": "Explorer-for-Linux",
-  "url": "https://github.com/macOS-Terminal/Explorer-for-Linux",
   "intro": "在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。",
   "restores": "Win11 资源管理器界面（含经典「未响应」体验）。",
   "license": "未标注",
-  "author": "macOS-Terminal",
-  "author_url": "https://github.com/macOS-Terminal",
-  "lang": "zh-CN",
-  "video": ""
+  "video": "",
+  "url": "https://github.com/macOS-Terminal/Explorer-for-Linux",
+  "authors": [
+    {
+      "name": "macOS-Terminal",
+      "url": "https://github.com/macOS-Terminal"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ]
 }

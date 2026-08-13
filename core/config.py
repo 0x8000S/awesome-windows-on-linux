@@ -12,12 +12,15 @@ REQUIRED_FIELDS = {
              "license", "license_link", "year", "owner"],
     "group": ["name", "note"],
     "project": ["name", "url", "intro", "restores", "license",
-                "author", "author_url", "lang"],
+                "authors", "lang_primary", "lang_supported"],
 }
 
 # 各实体可含的额外字段（多定义检查时警告，但不算错误）
 KNOWN_EXTRA_FIELDS = {
     "meta": ["fields"],
     "group": ["id"],
-    "project": ["id", "video"],
+    "project": ["video"],
 }
+
+# 作者数组的元素结构
+AUTHOR_FIELDS = ["name", "url"]

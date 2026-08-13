@@ -1,12 +1,22 @@
 {
-  "id": "bsod",
   "name": "bsod",
-  "url": "https://github.com/heyManNice/bsod",
   "intro": "在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。",
   "restores": "Win10 蓝屏死机界面（含二维码）。",
   "license": "MIT",
-  "author": "heyManNice",
-  "author_url": "https://github.com/heyManNice",
-  "lang": "en-US / zh-CN / zh-TW / ja / ko",
-  "video": ""
+  "video": "",
+  "url": "https://github.com/heyManNice/bsod",
+  "authors": [
+    {
+      "name": "heyManNice",
+      "url": "https://github.com/heyManNice"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN",
+    "zh-TW",
+    "ja",
+    "ko"
+  ]
 }

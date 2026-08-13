@@ -15,8 +15,9 @@
     "intro": "介绍",
     "restores": "还原的部分",
     "license": "许可证",
-    "author": "作者",
-    "lang": "语言",
+    "authors": "作者",
+    "lang_primary": "主要语言",
+    "lang_supported": "支持语言",
     "video": "介绍视频",
     "video_pending": "（待补充）"
   }
