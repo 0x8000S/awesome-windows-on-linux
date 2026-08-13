@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """generate — 生成 README。"""
 import os
+from datetime import datetime, timezone
 
 from core.config import DEFAULT_LANG, FALLBACK_LANG, GROUP_META_DIR
 from core.render import render
 from core.scanner import load_lang_file, lang_files_in
 
 
-def run(base, lang, out_path=None):
+def run(base, lang, out_path=None, generated_at=None):
+    if generated_at is None:
+        generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+
     data_root = os.path.join(base, "project-datas")
     meta_root = os.path.join(base, "project-meta")
 
@@ -49,7 +53,7 @@ def run(base, lang, out_path=None):
 
         groups.append({"meta": gmeta, "projects": projects})
 
-    content = render(meta, groups, lang, all_langs)
+    content = render(meta, groups, lang, all_langs, generated_at=generated_at)
 
     if out_path is None:
         out_path = os.path.join(

@@ -25,7 +25,12 @@ jobs:
 
       - name: Verify generate is reproducible
         run: |
+          # 生成临时副本，与仓库 README 比对（过滤时间戳行，仅验证内容一致性）
           python main.py generate --lang en-US --out /tmp/readme.en.md
           python main.py generate --lang zh-CN --out /tmp/readme.zh.md
-          diff /tmp/readme.en.md README.md
-          diff /tmp/readme.zh.md README.zh-CN.md
+          grep -vE '^\*?(Generated at|生成于)' /tmp/readme.en.md > /tmp/en.stripped.md
+          grep -vE '^\*?(Generated at|生成于)' README.md > /tmp/en.cur.md
+          diff /tmp/en.stripped.md /tmp/en.cur.md
+          grep -vE '^\*?(Generated at|生成于)' /tmp/readme.zh.md > /tmp/zh.stripped.md
+          grep -vE '^\*?(Generated at|生成于)' README.zh-CN.md > /tmp/zh.cur.md
+          diff /tmp/zh.stripped.md /tmp/zh.cur.md

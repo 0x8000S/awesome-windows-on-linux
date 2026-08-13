@@ -35,7 +35,8 @@ jobs:
       - name: Check for changes
         id: git-check
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
+          # 用 porcelain 检测所有变更（含已跟踪修改与未跟踪文件）
+          if [ -z "$(git status --porcelain)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"

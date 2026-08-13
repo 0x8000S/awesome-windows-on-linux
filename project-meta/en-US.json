@@ -45,6 +45,7 @@
     "lang_primary": "Primary language",
     "lang_supported": "Supported languages",
     "video": "Intro video",
-    "video_pending": "(pending)"
+    "video_pending": "(pending)",
+    "generated_at": "Generated at"
   }
 }

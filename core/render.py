@@ -36,7 +36,7 @@ def slugify(name):
     return s
 
 
-def render(meta, groups, lang, all_langs):
+def render(meta, groups, lang, all_langs, generated_at=""):
     fields = meta.get("fields", {})
     f_intro = fields.get("intro", "介绍")
     f_restores = fields.get("restores", "还原的部分")
@@ -46,6 +46,7 @@ def render(meta, groups, lang, all_langs):
     f_lang_supported = fields.get("lang_supported", "支持语言")
     f_video = fields.get("video", "介绍视频")
     f_video_pending = fields.get("video_pending", "（待补充）")
+    f_generated_at = fields.get("generated_at", "Generated at")
 
     # 冒号：中文用全角，其他语言用半角
     colon = "：" if lang.startswith("zh") else ": "
@@ -137,5 +138,11 @@ def render(meta, groups, lang, all_langs):
     lines.append(f"[{meta['license']}]({meta['license_link']}) "
                  f"© {meta['year']} {meta['owner']}")
     lines.append("")
+
+    # 生成时间戳（可复现性：每次生成都不同，便于每日构建产生提交）
+    if generated_at:
+        lines.append("")
+        lines.append(f"*{f_generated_at}: {generated_at}*")
+        lines.append("")
 
     return "\n".join(lines)
