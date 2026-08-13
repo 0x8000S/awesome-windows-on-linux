@@ -13,101 +13,12 @@
 
 ## 目录
 
-- [整活恶搞](#整活恶搞)
-- [GUI 复刻](#gui-复刻)
-- [硬核逆向 / 底层格式](#硬核逆向--底层格式)
 - [实用工具](#实用工具)
+- [硬核逆向 / 底层格式](#硬核逆向--底层格式)
+- [GUI 复刻](#gui-复刻)
+- [整活恶搞](#整活恶搞)
 
 ---
-
-## 整活恶搞
-
-> 纯整活，别在生产机器上乱跑。
-
-### [adpop](https://github.com/MEKCCK/adpop)
-
-介绍：完全自绘渲染、供其他软件调用的通用广告弹窗服务。
-
-还原的部分：仿 Windows 流氓广告弹窗（动图 / 视频 / 音频 / 弹窗轰炸 / 流氓关闭）。
-
-- 许可证：未标注
-- 作者：[MEKCCK](https://github.com/MEKCCK)
-- 语言：zh-CN
-- 介绍视频：（待补充）
-
-### [bsod](https://github.com/heyManNice/bsod)
-
-介绍：在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。
-
-还原的部分：Win10 蓝屏死机界面（含二维码）。
-
-- 许可证：MIT
-- 作者：[heyManNice](https://github.com/heyManNice)
-- 语言：en-US / zh-CN / zh-TW / ja / ko
-- 介绍视频：（待补充）
-
-### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
-
-介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
-
-还原的部分：Windows 更新界面（成功进度 / 失败蓝屏）。
-
-- 许可证：MIT
-- 作者：[WenAnrong](https://github.com/WenAnrong)
-- 语言：en-US / zh-CN
-- 介绍视频：（待补充）
-
-## GUI 复刻
-
-> 复刻 Windows 桌面 GUI 体验。
-
-### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux)
-
-介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
-
-还原的部分：Win11 资源管理器界面（含经典「未响应」体验）。
-
-- 许可证：未标注
-- 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
-- 语言：zh-CN
-- 介绍视频：（待补充）
-
-### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
-
-介绍：仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。
-
-还原的部分：MMC 管理控制台（MDI 子窗口、管理单元、窗口嵌套）。
-
-- 许可证：MIT
-- 作者：[WindowsUninstaller](https://gitee.com/windowsuninstaller)
-- 语言：zh-CN / en-US
-- 介绍视频：（待补充）
-
-### [regedit](https://github.com/heyManNice/regedit)
-
-介绍：把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。
-
-还原的部分：注册表编辑器界面（左侧树 + 右侧键值）。
-
-- 许可证：GPL-3.0（README 声明，未附 LICENSE 文件）
-- 作者：[heyManNice](https://github.com/heyManNice)
-- 语言：zh-CN
-- 介绍视频：（待补充）
-
-## 硬核逆向 / 底层格式
-
-> 正经技术项目：研究 Windows 程序怎么在 Linux 上存活。
-
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows/)
-
-介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
-
-还原的部分：PE / ELF 文件格式结构（头、节表、程序头、动态段）。
-
-- 许可证：MIT
-- 作者：[dyz131005](https://github.com/dyz131005)
-- 语言：zh-CN
-- 介绍视频：（待补充）
 
 ## 实用工具
 
@@ -154,6 +65,95 @@
 
 - 许可证：MIT
 - 作者：[Yang Borui](https://github.com/HelloAIXIAOJI)
+- 语言：en-US / zh-CN
+- 介绍视频：（待补充）
+
+## 硬核逆向 / 底层格式
+
+> 正经技术项目：研究 Windows 程序怎么在 Linux 上存活。
+
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows/)
+
+介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
+
+还原的部分：PE / ELF 文件格式结构（头、节表、程序头、动态段）。
+
+- 许可证：MIT
+- 作者：[dyz131005](https://github.com/dyz131005)
+- 语言：zh-CN
+- 介绍视频：（待补充）
+
+## GUI 复刻
+
+> 复刻 Windows 桌面 GUI 体验。
+
+### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux)
+
+介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
+
+还原的部分：Win11 资源管理器界面（含经典「未响应」体验）。
+
+- 许可证：未标注
+- 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
+- 语言：zh-CN
+- 介绍视频：（待补充）
+
+### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
+
+介绍：仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。
+
+还原的部分：MMC 管理控制台（MDI 子窗口、管理单元、窗口嵌套）。
+
+- 许可证：MIT
+- 作者：[WindowsUninstaller](https://gitee.com/windowsuninstaller)
+- 语言：zh-CN / en-US
+- 介绍视频：（待补充）
+
+### [regedit](https://github.com/heyManNice/regedit)
+
+介绍：把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。
+
+还原的部分：注册表编辑器界面（左侧树 + 右侧键值）。
+
+- 许可证：GPL-3.0（README 声明，未附 LICENSE 文件）
+- 作者：[heyManNice](https://github.com/heyManNice)
+- 语言：zh-CN
+- 介绍视频：（待补充）
+
+## 整活恶搞
+
+> 纯整活，别在生产机器上乱跑。
+
+### [adpop](https://github.com/MEKCCK/adpop)
+
+介绍：完全自绘渲染、供其他软件调用的通用广告弹窗服务。
+
+还原的部分：仿 Windows 流氓广告弹窗（动图 / 视频 / 音频 / 弹窗轰炸 / 流氓关闭）。
+
+- 许可证：未标注
+- 作者：[MEKCCK](https://github.com/MEKCCK)
+- 语言：zh-CN
+- 介绍视频：（待补充）
+
+### [bsod](https://github.com/heyManNice/bsod)
+
+介绍：在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。
+
+还原的部分：Win10 蓝屏死机界面（含二维码）。
+
+- 许可证：MIT
+- 作者：[heyManNice](https://github.com/heyManNice)
+- 语言：en-US / zh-CN / zh-TW / ja / ko
+- 介绍视频：（待补充）
+
+### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
+
+介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
+
+还原的部分：Windows 更新界面（成功进度 / 失败蓝屏）。
+
+- 许可证：MIT
+- 作者：[WenAnrong](https://github.com/WenAnrong)
 - 语言：en-US / zh-CN
 - 介绍视频：（待补充）
 
