@@ -11,9 +11,10 @@
       "url": "https://github.com/linux-user-114514"
     }
   ],
-  "lang_primary": "en-US",
+  "lang_primary": "zh-CN",
   "lang_supported": [
-    "en-US"
+    "en-US",
+    "zh-CN"
   ],
   "intent": "practical"
 }

@@ -13,6 +13,7 @@
   ],
   "lang_primary": "zh-CN",
   "lang_supported": [
+    "en-US",
     "zh-CN"
   ],
   "intent": "prank"

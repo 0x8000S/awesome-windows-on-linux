@@ -57,7 +57,7 @@ Restores: The 'bundleware recommendations' nuisance experience when installing s
 
 - License: MIT
 - Authors: [WenAnrong](https://github.com/WenAnrong)
-- Primary language: en-US
+- Primary language: zh-CN
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1LNgG69EMe
 
@@ -81,7 +81,7 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 - License: MIT
 - Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- Primary language: en-US
+- Primary language: zh-CN
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1Pzuy6oEZm
 
@@ -121,8 +121,8 @@ Restores: The Windows Notepad interface.
 
 - License: Unspecified
 - Authors: [linux-user-114514](https://github.com/linux-user-114514)
-- Primary language: en-US
-- Supported languages: en-US
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1aigV6HETK
 
 ### [regedit](https://github.com/heyManNice/regedit) [Practical]
@@ -145,7 +145,7 @@ Restores: The Win+R 'Run' dialog.
 
 - License: MIT
 - Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- Primary language: en-US
+- Primary language: zh-CN
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1CxgJ6pEHr
 
@@ -185,8 +185,8 @@ Restores: The Windows UAC dialog (dim & freeze + password check + Yes/No + chime
 
 - License: MIT
 - Authors: [WenAnrong](https://github.com/WenAnrong)
-- Primary language: en-US
-- Supported languages: en-US
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1qjgn6EErZ
 
 ## Low-level / Reverse Engineering
@@ -201,7 +201,7 @@ Restores: The Win10 Blue Screen of Death interface (with QR code).
 
 - License: MIT
 - Authors: [heyManNice](https://github.com/heyManNice)
-- Primary language: en-US
+- Primary language: zh-CN
 - Supported languages: en-US / zh-CN / zh-TW / ja / ko
 - Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
 
@@ -225,7 +225,7 @@ Restores: The Windows update screen (success progress / failure blue screen).
 
 - License: MIT
 - Authors: [WenAnrong](https://github.com/WenAnrong)
-- Primary language: en-US
+- Primary language: zh-CN
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV15iuR6zEBE
 
@@ -308,4 +308,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 18:20 UTC*
+*Generated at: 2026-08-13 18:25 UTC*

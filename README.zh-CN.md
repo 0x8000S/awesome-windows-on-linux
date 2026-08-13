@@ -57,7 +57,7 @@
 
 - 许可证：MIT
 - 作者：[WenAnrong](https://github.com/WenAnrong)
-- 主要语言：en-US
+- 主要语言：zh-CN
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1LNgG69EMe
 
@@ -81,7 +81,7 @@
 
 - 许可证：MIT
 - 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- 主要语言：en-US
+- 主要语言：zh-CN
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1Pzuy6oEZm
 
@@ -122,7 +122,7 @@
 - 许可证：未标注
 - 作者：[linux-user-114514](https://github.com/linux-user-114514)
 - 主要语言：zh-CN
-- 支持语言：zh-CN
+- 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1aigV6HETK
 
 ### [regedit](https://github.com/heyManNice/regedit) [实用]
@@ -145,7 +145,7 @@
 
 - 许可证：MIT
 - 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- 主要语言：en-US
+- 主要语言：zh-CN
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1CxgJ6pEHr
 
@@ -186,7 +186,7 @@
 - 许可证：MIT
 - 作者：[WenAnrong](https://github.com/WenAnrong)
 - 主要语言：zh-CN
-- 支持语言：zh-CN
+- 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1qjgn6EErZ
 
 ## 底层 / 逆向
@@ -201,7 +201,7 @@
 
 - 许可证：MIT
 - 作者：[heyManNice](https://github.com/heyManNice)
-- 主要语言：en-US
+- 主要语言：zh-CN
 - 支持语言：en-US / zh-CN / zh-TW / ja / ko
 - 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
 
@@ -225,7 +225,7 @@
 
 - 许可证：MIT
 - 作者：[WenAnrong](https://github.com/WenAnrong)
-- 主要语言：en-US
+- 主要语言：zh-CN
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV15iuR6zEBE
 
@@ -308,4 +308,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 18:20 UTC*
+*生成于: 2026-08-13 18:25 UTC*
