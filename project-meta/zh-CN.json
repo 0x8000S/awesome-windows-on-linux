@@ -3,7 +3,7 @@
   "tagline": "把 Windows 的「体验」搬到 Linux 上的项目合集 —— 从硬核逆向到恶趣味整活，一网打尽。",
   "logo": "awologo.png",
   "logo_alt_zh": "Awesome Windows on Linux Logo",
-  "description": "这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。按「整活浓度」从高到低排列，分为**硬核逆向**、**实用工具**、**GUI 复刻**、**整活恶搞**四大类。",
+  "description": "这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。项目按**形态**分组（命令行工具、GUI 应用、系统交互、底层 / 逆向），并给每个项目打了**意图标签**——`[实用]` 表示真能日常用，`[整活]` 表示恶搞、别在生产机跑。",
   "toc_title": "目录",
   "nav_title": "文档",
   "nav": [
@@ -37,7 +37,8 @@
     "  \"url\": \"\",",
     "  \"authors\": [],",
     "  \"lang_primary\": \"zh-CN\",",
-    "  \"lang_supported\": [\"zh-CN\"]",
+    "  \"lang_supported\": [\"zh-CN\"],",
+    "  \"intent\": \"practical\"",
     "}",
     "```",
     "",
@@ -52,6 +53,9 @@
     "| `lang_primary` | 是 | 主要语言 |",
     "| `lang_supported` | 是 | 支持的语言数组 |",
     "| `video` | 否 | 介绍视频链接 |",
+    "| `intent` | 是 | 意图标签：`practical` / `prank` / `mixed` |",
+    "",
+    "`intent` 与基于形态的分组正交：**practical** = 实用、可安全使用；**prank** = 整活、别在生产机跑；**mixed** = 两者兼具。",
     "",
     "编辑完成后重新生成并校验：",
     "",
@@ -90,6 +94,9 @@
     "lang_supported": "支持语言",
     "video": "介绍视频",
     "video_pending": "（待补充）",
-    "generated_at": "生成于"
+    "generated_at": "生成于",
+    "intent_practical": "[实用]",
+    "intent_prank": "[整活]",
+    "intent_mixed": "[混合]"
   }
 }

@@ -1,0 +1,4 @@
+{
+  "name": "System Interaction",
+  "note": "Projects that hook into system services: PAM modules, popups, global hotkeys."
+}

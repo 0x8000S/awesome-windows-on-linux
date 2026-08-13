@@ -1,0 +1,19 @@
+{
+  "name": "Linux_uac",
+  "intro": "通过自定义 PAM 模块在 Linux 上复刻 Windows 的 UAC（用户账户控制）弹窗，sudo 时屏幕变暗冻结并弹出密码校验。",
+  "restores": "Windows UAC 用户账户控制弹窗（变暗冻结 + 密码校验 + 是/否 + 提示音）。",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1qjgn6EErZ",
+  "url": "https://github.com/WenAnrong/Linux_uac",
+  "authors": [
+    {
+      "name": "WenAnrong",
+      "url": "https://github.com/WenAnrong"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "prank"
+}

@@ -3,7 +3,7 @@
   "tagline": "A collection of projects that bring the Windows experience to Linux — from hardcore reverse engineering to hilarious pranks.",
   "logo": "awologo.png",
   "logo_alt": "Awesome Windows on Linux Logo",
-  "description": "This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Sorted roughly by 'fun factor', grouped into four categories: **hardcore reverse engineering**, **practical tools**, **GUI replicas**, and **pranks**.",
+  "description": "This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Projects are grouped by **form** (CLI tools, GUI apps, system interaction, low-level/reverse engineering), and each carries an **intent tag** — `[Practical]` for things you can actually use, `[Prank]` for things you should not run on a production machine.",
   "toc_title": "Contents",
   "nav_title": "Docs",
   "nav": [
@@ -37,7 +37,8 @@
     "  \"url\": \"\",",
     "  \"authors\": [],",
     "  \"lang_primary\": \"zh-CN\",",
-    "  \"lang_supported\": [\"zh-CN\"]",
+    "  \"lang_supported\": [\"zh-CN\"],",
+    "  \"intent\": \"practical\"",
     "}",
     "```",
     "",
@@ -52,6 +53,9 @@
     "| `lang_primary` | yes | Primary language |",
     "| `lang_supported` | yes | Array of supported languages |",
     "| `video` | no | Intro video link |",
+    "| `intent` | yes | Intent tag: `practical` / `prank` / `mixed` |",
+    "",
+    "`intent` is orthogonal to the form-based group: **practical** = usable/safe, **prank** = parody/not for production, **mixed** = both.",
     "",
     "After editing, regenerate and validate:",
     "",
@@ -90,6 +94,9 @@
     "lang_supported": "Supported languages",
     "video": "Intro video",
     "video_pending": "(pending)",
-    "generated_at": "Generated at"
+    "generated_at": "Generated at",
+    "intent_practical": "[Practical]",
+    "intent_prank": "[Prank]",
+    "intent_mixed": "[Mixed]"
   }
 }

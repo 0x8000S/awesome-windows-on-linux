@@ -24,8 +24,11 @@ REQUIRED_FIELDS = {
 KNOWN_EXTRA_FIELDS = {
     "meta": ["fields", "nav_title", "nav", "logo", "logo_alt", "logo_alt_zh"],
     "group": [],
-    "project": ["video"],
+    "project": ["video", "intent"],
 }
+
+# intent 标签的合法取值（正交维度：整活 / 实用 / 混合）
+INTENT_VALUES = ["practical", "prank", "mixed"]
 
 # 作者数组的元素结构
 AUTHOR_FIELDS = ["name", "url"]

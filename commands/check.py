@@ -3,7 +3,7 @@
 import os
 
 from core.config import (FALLBACK_LANG, REQUIRED_FIELDS, KNOWN_EXTRA_FIELDS,
-                         AUTHOR_FIELDS)
+                         AUTHOR_FIELDS, INTENT_VALUES)
 from core.issues import IssueCollector
 from core.scanner import load_lang_file
 
@@ -44,6 +44,16 @@ def _check_langs(pd, scope, issues):
                    f"lang_primary '{primary}' 不在 lang_supported 中")
 
 
+def _check_intent(pd, scope, issues):
+    """检查 intent 标签是否合法（若存在）。"""
+    intent = pd.get("intent")
+    if intent is None:
+        return
+    if intent not in INTENT_VALUES:
+        issues.add("error", scope,
+                   f"intent 取值非法: '{intent}'（应为 {'/'.join(INTENT_VALUES)}）")
+
+
 def run(collector, verbose=True):
     issues = IssueCollector()
     meta_dir = collector["meta"]["dir"]
@@ -76,6 +86,7 @@ def run(collector, verbose=True):
             _check_unknown_fields(pd, scope, "project", issues)
             _check_authors(pd.get("authors"), scope, issues)
             _check_langs(pd, scope, issues)
+            _check_intent(pd, scope, issues)
 
             # 重复 ID：用目录名作为 ID
             pid = p["id"]

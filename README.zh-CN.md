@@ -9,17 +9,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。按「整活浓度」从高到低排列，分为**硬核逆向**、**实用工具**、**GUI 复刻**、**整活恶搞**四大类。
+这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。项目按**形态**分组（命令行工具、GUI 应用、系统交互、底层 / 逆向），并给每个项目打了**意图标签**——`[实用]` 表示真能日常用，`[整活]` 表示恶搞、别在生产机跑。
 
 ---
 
 ## 目录
 
 - [信息](#信息)
-- [实用工具](#实用工具)
-- [硬核逆向 / 底层格式](#硬核逆向--底层格式)
-- [GUI 复刻](#gui-复刻)
-- [整活恶搞](#整活恶搞)
+- [命令行工具](#命令行工具)
+- [GUI 应用](#gui-应用)
+- [系统交互](#系统交互)
+- [底层 / 逆向](#底层--逆向)
 
 - **文档**
   - [贡献](#贡献)
@@ -31,7 +31,7 @@
 
 ## 信息
 
-> 我也不知道这里写什么，哈哈哈
+> 我也不知道该在这里放啥，哈哈哈。
 
 ### [Awesome Windows on Linux](https://github.com/windowix/awesome-windows-on-linux)
 
@@ -45,9 +45,9 @@
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1mMgs6gET6
 
-## 实用工具
+## 命令行工具
 
-> 能把 Windows 工具链带到 Linux 的「瑞士军刀」。
+> 在 Unix 上还原 Windows 终端命令的命令行工具。
 
 ### [aptx](https://github.com/WenAnrong/aptx)
 
@@ -61,7 +61,7 @@
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1LNgG69EMe
 
-### [cmd](https://github.com/ChenPi11/cmd)
+### [cmd](https://github.com/ChenPi11/cmd) [实用]
 
 介绍：从零用纯 C89 忠实重写 Windows `cmd.exe` 的命令解释器，纯 POSIX 零依赖，能跑在任何 Unix 上。
 
@@ -73,19 +73,7 @@
 - 支持语言：en-US / zh-CN / zh-MS / zh-WY
 - 介绍视频：https://www.bilibili.com/video/BV1wkuH64EE8
 
-### [runbox](https://github.com/HelloAIXIAOJI/runbox)
-
-介绍：Linux 上按下 `Super+R` 弹出的运行对话框，Adwaita 外观随系统主题。
-
-还原的部分：Win+R「运行」对话框。
-
-- 许可证：MIT
-- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- 主要语言：en-US
-- 支持语言：en-US / zh-CN
-- 介绍视频：https://www.bilibili.com/video/BV1CxgJ6pEHr
-
-### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
+### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit) [实用]
 
 介绍：用 Rust 重写的 Windows 命令行工具合集，跨平台运行。
 
@@ -97,27 +85,11 @@
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1Pzuy6oEZm
 
-## 硬核逆向 / 底层格式
+## GUI 应用
 
-> 正经技术项目
+> 复刻 Windows 桌面界面的图形应用程序。
 
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
-
-介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
-
-还原的部分：PE / ELF 文件格式结构（头、节表、程序头、动态段）。
-
-- 许可证：MIT
-- 作者：[dyz131005](https://github.com/dyz131005)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：https://www.bilibili.com/video/BV1p1gE6DEVF
-
-## GUI 复刻
-
-> 复刻 Windows 桌面 GUI 体验。
-
-### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux)
+### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [整活]
 
 介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
 
@@ -129,7 +101,7 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1ZWgV68EtU
 
-### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
+### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [实用]
 
 介绍：仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。
 
@@ -141,7 +113,7 @@
 - 支持语言：zh-CN / en-US
 - 介绍视频：https://www.bilibili.com/video/BV1gVuB6nEQk
 
-### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux)
+### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux) [实用]
 
 介绍：在 Linux 上还原 Windows 记事本的独立程序。
 
@@ -153,7 +125,7 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1aigV6HETK
 
-### [regedit](https://github.com/heyManNice/regedit)
+### [regedit](https://github.com/heyManNice/regedit) [实用]
 
 介绍：把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。
 
@@ -165,47 +137,19 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1CWuV6iEW6
 
-## 整活恶搞
+### [runbox](https://github.com/HelloAIXIAOJI/runbox) [实用]
 
-> 纯整活，别在生产机器上乱跑。
+介绍：Linux 上按下 `Super+R` 弹出的运行对话框，Adwaita 外观随系统主题。
 
-### [adpop](https://github.com/MEKCCK/adpop)
-
-介绍：完全自绘渲染、供其他软件调用的通用广告弹窗服务。
-
-还原的部分：仿 Windows 流氓广告弹窗（动图 / 视频 / 音频 / 弹窗轰炸 / 流氓关闭）。
-
-- 许可证：未标注
-- 作者：[MEKCCK](https://github.com/MEKCCK)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：https://www.bilibili.com/video/BV1ARgV6gEGm
-
-### [bsod](https://github.com/heyManNice/bsod)
-
-介绍：在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。
-
-还原的部分：Win10 蓝屏死机界面（含二维码）。
+还原的部分：Win+R「运行」对话框。
 
 - 许可证：MIT
-- 作者：[heyManNice](https://github.com/heyManNice)
+- 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - 主要语言：en-US
-- 支持语言：en-US / zh-CN / zh-TW / ja / ko
-- 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
+- 支持语言：en-US / zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1CxgJ6pEHr
 
-### [Linux_uac](https://github.com/WenAnrong/Linux_uac)
-
-介绍：通过自定义 PAM 模块在 Linux 上复刻 Windows 的 UAC（用户账户控制）弹窗，sudo 时屏幕变暗冻结并弹出密码校验。
-
-还原的部分：Windows UAC 用户账户控制弹窗（变暗冻结 + 密码校验 + 是/否 + 提示音）。
-
-- 许可证：MIT
-- 作者：[WenAnrong](https://github.com/WenAnrong)
-- 主要语言：zh-CN
-- 支持语言：zh-CN
-- 介绍视频：https://www.bilibili.com/video/BV1qjgn6EErZ
-
-### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux) [整活]
 
 介绍：用 C++/Qt 6 实现的 Windows 11 风格 Ctrl+Alt+Delete 安全选项屏，支持 X11 与 Wayland（GNOME/KDE/Sway/Hyprland/Niri）。
 
@@ -217,7 +161,63 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1FQgn6sERt
 
-### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
+## 系统交互
+
+> 嵌入系统服务层的项目：PAM 模块、弹窗、全局热键。
+
+### [adpop](https://github.com/MEKCCK/adpop) [整活]
+
+介绍：完全自绘渲染、供其他软件调用的通用广告弹窗服务。
+
+还原的部分：仿 Windows 流氓广告弹窗（动图 / 视频 / 音频 / 弹窗轰炸 / 流氓关闭）。
+
+- 许可证：未标注
+- 作者：[MEKCCK](https://github.com/MEKCCK)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1ARgV6gEGm
+
+### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [整活]
+
+介绍：通过自定义 PAM 模块在 Linux 上复刻 Windows 的 UAC（用户账户控制）弹窗，sudo 时屏幕变暗冻结并弹出密码校验。
+
+还原的部分：Windows UAC 用户账户控制弹窗（变暗冻结 + 密码校验 + 是/否 + 提示音）。
+
+- 许可证：MIT
+- 作者：[WenAnrong](https://github.com/WenAnrong)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1qjgn6EErZ
+
+## 底层 / 逆向
+
+> 二进制格式与贴近内核的项目：DRM 直渲、PE/ELF、系统内部。
+
+### [bsod](https://github.com/heyManNice/bsod) [整活]
+
+介绍：在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。
+
+还原的部分：Win10 蓝屏死机界面（含二维码）。
+
+- 许可证：MIT
+- 作者：[heyManNice](https://github.com/heyManNice)
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN / zh-TW / ja / ko
+- 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
+
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows) [实用]
+
+介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
+
+还原的部分：PE / ELF 文件格式结构（头、节表、程序头、动态段）。
+
+- 许可证：MIT
+- 作者：[dyz131005](https://github.com/dyz131005)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1p1gE6DEVF
+
+### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux) [整活]
 
 介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
 
@@ -258,7 +258,8 @@ my-awesome-tool/
   "url": "",
   "authors": [],
   "lang_primary": "zh-CN",
-  "lang_supported": ["zh-CN"]
+  "lang_supported": ["zh-CN"],
+  "intent": "practical"
 }
 ```
 
@@ -273,6 +274,9 @@ my-awesome-tool/
 | `lang_primary` | 是 | 主要语言 |
 | `lang_supported` | 是 | 支持的语言数组 |
 | `video` | 否 | 介绍视频链接 |
+| `intent` | 是 | 意图标签：`practical` / `prank` / `mixed` |
+
+`intent` 与基于形态的分组正交：**practical** = 实用、可安全使用；**prank** = 整活、别在生产机跑；**mixed** = 两者兼具。
 
 编辑完成后重新生成并校验：
 
@@ -304,4 +308,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 16:08 UTC*
+*生成于: 2026-08-13 17:34 UTC*

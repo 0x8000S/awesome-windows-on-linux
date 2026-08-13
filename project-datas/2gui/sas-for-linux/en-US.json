@@ -1,0 +1,19 @@
+{
+  "name": "SAS-for-Linux",
+  "intro": "A Windows 11-style Ctrl+Alt+Delete secure attention screen implemented in C++/Qt 6, supporting X11 and Wayland (GNOME/KDE/Sway/Hyprland/Niri).",
+  "restores": "The Windows 11 secure attention screen (lock / switch user / log out / change password / task manager + network / accessibility / power).",
+  "license": "Unspecified",
+  "video": "https://www.bilibili.com/video/BV1FQgn6sERt",
+  "url": "https://github.com/macOS-Terminal/SAS-for-Linux",
+  "authors": [
+    {
+      "name": "macOS-Terminal",
+      "url": "https://github.com/macOS-Terminal"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US"
+  ],
+  "intent": "prank"
+}

@@ -9,17 +9,17 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Sorted roughly by 'fun factor', grouped into four categories: **hardcore reverse engineering**, **practical tools**, **GUI replicas**, and **pranks**.
+This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Projects are grouped by **form** (CLI tools, GUI apps, system interaction, low-level/reverse engineering), and each carries an **intent tag** — `[Practical]` for things you can actually use, `[Prank]` for things you should not run on a production machine.
 
 ---
 
 ## Contents
 
 - [Info](#info)
-- [Practical Tools](#practical-tools)
-- [Hardcore Reverse Engineering](#hardcore-reverse-engineering)
-- [GUI Replicas](#gui-replicas)
-- [Pranks](#pranks)
+- [CLI Tools](#cli-tools)
+- [GUI Applications](#gui-applications)
+- [System Interaction](#system-interaction)
+- [Low-level / Reverse Engineering](#low-level--reverse-engineering)
 
 - **Docs**
   - [Contribute](#contribute)
@@ -45,9 +45,9 @@ Restores: Curating and organizing projects that recreate Windows.
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1mMgs6gET6
 
-## Practical Tools
+## CLI Tools
 
-> Bring the Windows toolchain to Linux — the 'Swiss Army Knife'.
+> Command-line tools that restore Windows terminal commands on Unix.
 
 ### [aptx](https://github.com/WenAnrong/aptx)
 
@@ -61,7 +61,7 @@ Restores: The 'bundleware recommendations' nuisance experience when installing s
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1LNgG69EMe
 
-### [cmd](https://github.com/ChenPi11/cmd)
+### [cmd](https://github.com/ChenPi11/cmd) [Practical]
 
 Intro: A faithful reimplementation of Windows `cmd.exe` written from scratch in pure C89, with zero POSIX dependencies, running on any Unix.
 
@@ -73,19 +73,7 @@ Restores: The Windows `cmd.exe` command interpreter (batch scripting, pipes/redi
 - Supported languages: en-US / zh-CN / zh-MS / zh-WY
 - Intro video: https://www.bilibili.com/video/BV1wkuH64EE8
 
-### [runbox](https://github.com/HelloAIXIAOJI/runbox)
-
-Intro: A run dialog on Linux that pops up with `Super+R`, with an Adwaita look following the system theme.
-
-Restores: The Win+R 'Run' dialog.
-
-- License: MIT
-- Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
-- Primary language: en-US
-- Supported languages: en-US / zh-CN
-- Intro video: https://www.bilibili.com/video/BV1CxgJ6pEHr
-
-### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
+### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit) [Practical]
 
 Intro: A collection of Windows command-line tools rewritten in Rust, running cross-platform.
 
@@ -97,27 +85,11 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1Pzuy6oEZm
 
-## Hardcore Reverse Engineering
+## GUI Applications
 
-> Serious tech projects
+> Graphical apps that recreate Windows desktop interfaces.
 
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
-
-Intro: A binary conversion tool that offline-converts Windows PE executables into Linux ELF at the file-format level.
-
-Restores: PE / ELF file format structures (header, section table, program headers, dynamic segment).
-
-- License: MIT
-- Authors: [dyz131005](https://github.com/dyz131005)
-- Primary language: zh-CN
-- Supported languages: zh-CN
-- Intro video: https://www.bilibili.com/video/BV1p1gE6DEVF
-
-## GUI Replicas
-
-> Replicate the Windows desktop GUI experience.
-
-### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux)
+### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [Prank]
 
 Intro: A desktop program that deeply replicates the Win11 file-management experience on Linux.
 
@@ -129,7 +101,7 @@ Restores: The Win11 File Explorer interface (including the classic 'Not Respondi
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1ZWgV68EtU
 
-### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
+### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [Practical]
 
 Intro: A cross-platform tool mimicking the Windows Management Console, built with tkinter.
 
@@ -141,7 +113,7 @@ Restores: The MMC console (MDI child windows, snap-ins, window embedding).
 - Supported languages: zh-CN / en-US
 - Intro video: https://www.bilibili.com/video/BV1gVuB6nEQk
 
-### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux)
+### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux) [Practical]
 
 Intro: A standalone program that recreates Windows Notepad on Linux.
 
@@ -153,7 +125,7 @@ Restores: The Windows Notepad interface.
 - Supported languages: en-US
 - Intro video: https://www.bilibili.com/video/BV1aigV6HETK
 
-### [regedit](https://github.com/heyManNice/regedit)
+### [regedit](https://github.com/heyManNice/regedit) [Practical]
 
 Intro: A system configuration file browser that maps `/etc`, `~/.config`, and `/boot` to a registry tree and auto-detects multiple config formats.
 
@@ -165,47 +137,19 @@ Restores: The registry editor interface (left tree + right key/value list).
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1CWuV6iEW6
 
-## Pranks
+### [runbox](https://github.com/HelloAIXIAOJI/runbox) [Practical]
 
-> Pure fun — don't run these on production machines.
+Intro: A run dialog on Linux that pops up with `Super+R`, with an Adwaita look following the system theme.
 
-### [adpop](https://github.com/MEKCCK/adpop)
-
-Intro: A general-purpose ad-popup service rendered fully from scratch, callable by other software.
-
-Restores: Windows-style malicious ad popups (animated images / video / audio / popup spam / non-closable).
-
-- License: Unspecified
-- Authors: [MEKCCK](https://github.com/MEKCCK)
-- Primary language: zh-CN
-- Supported languages: zh-CN
-- Intro video: https://www.bilibili.com/video/BV1ARgV6gEGm
-
-### [bsod](https://github.com/heyManNice/bsod)
-
-Intro: A blue-screen demo tool that renders directly on the Linux physical display, grabbing DRM Master, with multi-language and log monitoring.
-
-Restores: The Win10 Blue Screen of Death interface (with QR code).
+Restores: The Win+R 'Run' dialog.
 
 - License: MIT
-- Authors: [heyManNice](https://github.com/heyManNice)
+- Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - Primary language: en-US
-- Supported languages: en-US / zh-CN / zh-TW / ja / ko
-- Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV1CxgJ6pEHr
 
-### [Linux_uac](https://github.com/WenAnrong/Linux_uac)
-
-Intro: Recreates Windows UAC (User Account Control) on Linux via a custom PAM module: the screen dims and freezes, then a password prompt appears when you run sudo.
-
-Restores: The Windows UAC dialog (dim & freeze + password check + Yes/No + chime).
-
-- License: MIT
-- Authors: [WenAnrong](https://github.com/WenAnrong)
-- Primary language: en-US
-- Supported languages: en-US
-- Intro video: https://www.bilibili.com/video/BV1qjgn6EErZ
-
-### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux) [Prank]
 
 Intro: A Windows 11-style Ctrl+Alt+Delete secure attention screen implemented in C++/Qt 6, supporting X11 and Wayland (GNOME/KDE/Sway/Hyprland/Niri).
 
@@ -217,7 +161,63 @@ Restores: The Windows 11 secure attention screen (lock / switch user / log out /
 - Supported languages: en-US
 - Intro video: https://www.bilibili.com/video/BV1FQgn6sERt
 
-### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
+## System Interaction
+
+> Projects that hook into system services: PAM modules, popups, global hotkeys.
+
+### [adpop](https://github.com/MEKCCK/adpop) [Prank]
+
+Intro: A general-purpose ad-popup service rendered fully from scratch, callable by other software.
+
+Restores: Windows-style malicious ad popups (animated images / video / audio / popup spam / non-closable).
+
+- License: Unspecified
+- Authors: [MEKCCK](https://github.com/MEKCCK)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1ARgV6gEGm
+
+### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [Prank]
+
+Intro: Recreates Windows UAC (User Account Control) on Linux via a custom PAM module: the screen dims and freezes, then a password prompt appears when you run sudo.
+
+Restores: The Windows UAC dialog (dim & freeze + password check + Yes/No + chime).
+
+- License: MIT
+- Authors: [WenAnrong](https://github.com/WenAnrong)
+- Primary language: en-US
+- Supported languages: en-US
+- Intro video: https://www.bilibili.com/video/BV1qjgn6EErZ
+
+## Low-level / Reverse Engineering
+
+> Binary-format and kernel-adjacent projects: DRM rendering, PE/ELF, system internals.
+
+### [bsod](https://github.com/heyManNice/bsod) [Prank]
+
+Intro: A blue-screen demo tool that renders directly on the Linux physical display, grabbing DRM Master, with multi-language and log monitoring.
+
+Restores: The Win10 Blue Screen of Death interface (with QR code).
+
+- License: MIT
+- Authors: [heyManNice](https://github.com/heyManNice)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN / zh-TW / ja / ko
+- Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
+
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows) [Practical]
+
+Intro: A binary conversion tool that offline-converts Windows PE executables into Linux ELF at the file-format level.
+
+Restores: PE / ELF file format structures (header, section table, program headers, dynamic segment).
+
+- License: MIT
+- Authors: [dyz131005](https://github.com/dyz131005)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1p1gE6DEVF
+
+### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux) [Prank]
 
 Intro: A prank program showing a fake Windows update screen: 50% chance of a real update+reboot, 50% chance of a blue screen.
 
@@ -258,7 +258,8 @@ Open the project JSON and fill in the fields:
   "url": "",
   "authors": [],
   "lang_primary": "zh-CN",
-  "lang_supported": ["zh-CN"]
+  "lang_supported": ["zh-CN"],
+  "intent": "practical"
 }
 ```
 
@@ -273,6 +274,9 @@ Open the project JSON and fill in the fields:
 | `lang_primary` | yes | Primary language |
 | `lang_supported` | yes | Array of supported languages |
 | `video` | no | Intro video link |
+| `intent` | yes | Intent tag: `practical` / `prank` / `mixed` |
+
+`intent` is orthogonal to the form-based group: **practical** = usable/safe, **prank** = parody/not for production, **mixed** = both.
 
 After editing, regenerate and validate:
 
@@ -304,4 +308,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 16:08 UTC*
+*Generated at: 2026-08-13 17:34 UTC*

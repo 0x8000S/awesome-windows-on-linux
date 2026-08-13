@@ -1,0 +1,4 @@
+{
+  "name": "Low-level / Reverse Engineering",
+  "note": "Binary-format and kernel-adjacent projects: DRM rendering, PE/ELF, system internals."
+}

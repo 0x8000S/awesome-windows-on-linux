@@ -48,6 +48,13 @@ def render(meta, groups, lang, all_langs, generated_at=""):
     f_video_pending = fields.get("video_pending", "（待补充）")
     f_generated_at = fields.get("generated_at", "Generated at")
 
+    # intent 标签文案与徽章（多语言）
+    intent_badges = {
+        "practical": fields.get("intent_practical", "[Practical]"),
+        "prank": fields.get("intent_prank", "[Prank]"),
+        "mixed": fields.get("intent_mixed", "[Mixed]"),
+    }
+
     # 冒号：中文用全角，其他语言用半角
     colon = "：" if lang.startswith("zh") else ": "
 
@@ -115,7 +122,12 @@ def render(meta, groups, lang, all_langs, generated_at=""):
         lines.append(f"> {gm['note']}")
         lines.append("")
         for p in g["projects"]:
-            lines.append(f"### [{p['name']}]({p['url']})")
+            # intent 徽章：practical / prank 显示，mixed（如汇总清单）不显示
+            badge = intent_badges.get(p.get("intent", ""), "")
+            title = f"[{p['name']}]({p['url']})"
+            if badge and p.get("intent") != "mixed":
+                title += f" {badge}"
+            lines.append(f"### {title}")
             lines.append("")
             lines.append(f"{f_intro}{colon}{p['intro']}")
             lines.append("")

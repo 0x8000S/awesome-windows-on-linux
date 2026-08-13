@@ -19,5 +19,6 @@
   "lang_supported": [
     "en-US",
     "zh-CN"
-  ]
+  ],
+  "intent": "mixed"
 }

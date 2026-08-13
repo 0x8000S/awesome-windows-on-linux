@@ -139,6 +139,7 @@ def _template(project_name, primary_lang, supported_langs):
         "authors": [],
         "lang_primary": primary_lang,
         "lang_supported": supported_langs,
+        "intent": "practical",
     }
 
 
