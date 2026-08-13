@@ -1,0 +1,51 @@
+name: Daily Build
+
+on:
+  schedule:
+    # UTC 每天 00:00（CRON: 分 时 日 月 周）
+    - cron: "0 0 * * *"
+  workflow_dispatch: # 也支持手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # 用默认 GITHUB_TOKEN，权限设为 contents:write 以便提交
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run lint
+        run: |
+          python main.py lint
+
+      - name: Generate READMEs (all languages)
+        run: |
+          python main.py generate --lang en-US --out README.md
+          python main.py generate --lang zh-CN --out README.zh-CN.md
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit generated files
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md README.zh-CN.md
+          git commit -m "chore: auto-build README (daily) [skip ci]"
+          git push
