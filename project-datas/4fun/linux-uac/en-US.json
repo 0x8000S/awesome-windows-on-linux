@@ -1,0 +1,18 @@
+{
+  "name": "Linux_uac",
+  "intro": "Recreates Windows UAC (User Account Control) on Linux via a custom PAM module: the screen dims and freezes, then a password prompt appears when you run sudo.",
+  "restores": "The Windows UAC dialog (dim & freeze + password check + Yes/No + chime).",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1qjgn6EErZ",
+  "url": "https://github.com/WenAnrong/Linux_uac",
+  "authors": [
+    {
+      "name": "WenAnrong",
+      "url": "https://github.com/WenAnrong"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US"
+  ]
+}

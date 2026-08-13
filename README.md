@@ -162,6 +162,18 @@ Restores: The Win10 Blue Screen of Death interface (with QR code).
 - Supported languages: en-US / zh-CN / zh-TW / ja / ko
 - Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
 
+### [Linux_uac](https://github.com/WenAnrong/Linux_uac)
+
+Intro: Recreates Windows UAC (User Account Control) on Linux via a custom PAM module: the screen dims and freezes, then a password prompt appears when you run sudo.
+
+Restores: The Windows UAC dialog (dim & freeze + password check + Yes/No + chime).
+
+- License: MIT
+- Authors: [WenAnrong](https://github.com/WenAnrong)
+- Primary language: en-US
+- Supported languages: en-US
+- Intro video: https://www.bilibili.com/video/BV1qjgn6EErZ
+
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
 Intro: A prank program showing a fake Windows update screen: 50% chance of a real update+reboot, 50% chance of a blue screen.
@@ -249,4 +261,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:33 UTC*
+*Generated at: 2026-08-13 14:37 UTC*

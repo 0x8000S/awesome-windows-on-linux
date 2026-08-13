@@ -162,6 +162,18 @@
 - 支持语言：en-US / zh-CN / zh-TW / ja / ko
 - 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
 
+### [Linux_uac](https://github.com/WenAnrong/Linux_uac)
+
+介绍：通过自定义 PAM 模块在 Linux 上复刻 Windows 的 UAC（用户账户控制）弹窗，sudo 时屏幕变暗冻结并弹出密码校验。
+
+还原的部分：Windows UAC 用户账户控制弹窗（变暗冻结 + 密码校验 + 是/否 + 提示音）。
+
+- 许可证：MIT
+- 作者：[WenAnrong](https://github.com/WenAnrong)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1qjgn6EErZ
+
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
 介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
@@ -249,4 +261,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 14:33 UTC*
+*生成于: 2026-08-13 14:37 UTC*
