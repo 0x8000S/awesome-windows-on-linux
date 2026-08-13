@@ -20,10 +20,10 @@ def load_lang_file(path_candidates):
 
 
 def lang_files_in(dirpath):
-    """返回目录下所有 json 的语言代码列表（去掉扩展名），按目录顺序。"""
+    """返回目录下所有 json 的语言代码列表（去掉扩展名），确定性排序。"""
     if not os.path.isdir(dirpath):
         return []
-    return [f[:-5] for f in os.listdir(dirpath) if f.endswith(".json")]
+    return sorted(f[:-5] for f in os.listdir(dirpath) if f.endswith(".json"))
 
 
 def collect(base):
@@ -49,7 +49,7 @@ def collect(base):
     if not os.path.isdir(data_root):
         return result
 
-    for groupid in os.listdir(data_root):
+    for groupid in sorted(os.listdir(data_root)):
         group_dir = os.path.join(data_root, groupid)
         if not os.path.isdir(group_dir):
             continue
@@ -61,7 +61,7 @@ def collect(base):
             "meta_dir": meta_dir,
             "projects": [],
         }
-        for pid in os.listdir(group_dir):
+        for pid in sorted(os.listdir(group_dir)):
             pdir = os.path.join(group_dir, pid)
             if pid == GROUP_META_DIR or not os.path.isdir(pdir):
                 continue

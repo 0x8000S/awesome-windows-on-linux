@@ -23,7 +23,7 @@ def run(base, lang, out_path=None):
             f"未找到顶层元数据: project-meta/{lang}.json 或 {FALLBACK_LANG}.json")
 
     groups = []
-    for groupid in os.listdir(data_root):
+    for groupid in sorted(os.listdir(data_root)):
         group_dir = os.path.join(data_root, groupid)
         if not os.path.isdir(group_dir):
             continue
@@ -35,7 +35,7 @@ def run(base, lang, out_path=None):
             continue
 
         projects = []
-        for pid in os.listdir(group_dir):
+        for pid in sorted(os.listdir(group_dir)):
             pdir = os.path.join(group_dir, pid)
             if pid == GROUP_META_DIR or not os.path.isdir(pdir):
                 continue
