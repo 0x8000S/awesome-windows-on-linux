@@ -3,7 +3,7 @@
   "intro": "A prank program showing a fake Windows update screen: 50% chance of a real update+reboot, 50% chance of a blue screen.",
   "restores": "The Windows update screen (success progress / failure blue screen).",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV15iuR6zEBE",
   "url": "https://github.com/WenAnrong/windows_update_in_linux",
   "authors": [
     {

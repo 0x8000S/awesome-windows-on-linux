@@ -3,7 +3,7 @@
   "intro": "在 Linux 物理屏上直接渲染、抢占 DRM Master 的蓝屏演示工具，支持多语言与日志监控。",
   "restores": "Win10 蓝屏死机界面（含二维码）。",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1xcuU6uEyw",
   "url": "https://github.com/heyManNice/bsod",
   "authors": [
     {

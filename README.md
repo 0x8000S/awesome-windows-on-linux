@@ -40,7 +40,7 @@ Restores: The 'bundleware recommendations' nuisance experience when installing s
 - Authors: [WenAnrong](https://github.com/WenAnrong)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1LNgG69EMe
 
 ### [cmd](https://github.com/ChenPi11/cmd)
 
@@ -52,7 +52,7 @@ Restores: The Windows `cmd.exe` command interpreter (batch scripting, pipes/redi
 - Authors: [ChenPi11](https://github.com/ChenPi11)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN / zh-MS / zh-WY
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1wkuH64EE8
 
 ### [runbox](https://github.com/HelloAIXIAOJI/runbox)
 
@@ -64,7 +64,7 @@ Restores: The Win+R 'Run' dialog.
 - Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1CxgJ6pEHr
 
 ### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
 
@@ -76,11 +76,11 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 - Authors: [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1Pzuy6oEZm
 
 ## Hardcore Reverse Engineering
 
-> Serious tech projects: how Windows programs can survive on Linux.
+> Serious tech projects
 
 ### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
@@ -92,7 +92,7 @@ Restores: PE / ELF file format structures (header, section table, program header
 - Authors: [dyz131005](https://github.com/dyz131005)
 - Primary language: zh-CN
 - Supported languages: zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1p1gE6DEVF
 
 ## GUI Replicas
 
@@ -108,7 +108,7 @@ Restores: The Win11 File Explorer interface (including the classic 'Not Respondi
 - Authors: [macOS-Terminal](https://github.com/macOS-Terminal)
 - Primary language: zh-CN
 - Supported languages: zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1ZWgV68EtU
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
 
@@ -120,7 +120,7 @@ Restores: The MMC console (MDI child windows, snap-ins, window embedding).
 - Authors: [WindowsUninstaller](https://gitee.com/windowsuninstaller)
 - Primary language: zh-CN
 - Supported languages: zh-CN / en-US
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1gVuB6nEQk
 
 ### [regedit](https://github.com/heyManNice/regedit)
 
@@ -132,7 +132,7 @@ Restores: The registry editor interface (left tree + right key/value list).
 - Authors: [heyManNice](https://github.com/heyManNice)
 - Primary language: zh-CN
 - Supported languages: zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1CWuV6iEW6
 
 ## Pranks
 
@@ -148,7 +148,7 @@ Restores: Windows-style malicious ad popups (animated images / video / audio / p
 - Authors: [MEKCCK](https://github.com/MEKCCK)
 - Primary language: zh-CN
 - Supported languages: zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1ARgV6gEGm
 
 ### [bsod](https://github.com/heyManNice/bsod)
 
@@ -160,7 +160,7 @@ Restores: The Win10 Blue Screen of Death interface (with QR code).
 - Authors: [heyManNice](https://github.com/heyManNice)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN / zh-TW / ja / ko
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
@@ -172,7 +172,7 @@ Restores: The Windows update screen (success progress / failure blue screen).
 - Authors: [WenAnrong](https://github.com/WenAnrong)
 - Primary language: en-US
 - Supported languages: en-US / zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV15iuR6zEBE
 
 ---
 
@@ -249,4 +249,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:20 UTC*
+*Generated at: 2026-08-13 14:33 UTC*

@@ -3,7 +3,7 @@
   "intro": "A system configuration file browser that maps `/etc`, `~/.config`, and `/boot` to a registry tree and auto-detects multiple config formats.",
   "restores": "The registry editor interface (left tree + right key/value list).",
   "license": "GPL-3.0 (declared in README; no LICENSE file shipped)",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1CWuV6iEW6",
   "url": "https://github.com/heyManNice/regedit",
   "authors": [
     {

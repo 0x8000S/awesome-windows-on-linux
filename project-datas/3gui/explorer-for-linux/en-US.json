@@ -3,7 +3,7 @@
   "intro": "A desktop program that deeply replicates the Win11 file-management experience on Linux.",
   "restores": "The Win11 File Explorer interface (including the classic 'Not Responding' experience).",
   "license": "Unspecified",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1ZWgV68EtU",
   "url": "https://github.com/macOS-Terminal/Explorer-for-Linux",
   "authors": [
     {

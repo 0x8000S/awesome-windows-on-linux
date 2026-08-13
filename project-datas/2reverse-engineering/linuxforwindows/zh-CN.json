@@ -3,7 +3,7 @@
   "intro": "从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。",
   "restores": "PE / ELF 文件格式结构（头、节表、程序头、动态段）。",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1p1gE6DEVF",
   "url": "https://github.com/dyz131005/LinuxForWindows",
   "authors": [
     {

@@ -3,7 +3,7 @@
   "intro": "从零用纯 C89 忠实重写 Windows `cmd.exe` 的命令解释器，纯 POSIX 零依赖，能跑在任何 Unix 上。",
   "restores": "Windows `cmd.exe` 命令行解释器（批处理、管道重定向、40+ 内置命令）。",
   "license": "GPL-3.0",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1wkuH64EE8",
   "url": "https://github.com/ChenPi11/cmd",
   "authors": [
     {

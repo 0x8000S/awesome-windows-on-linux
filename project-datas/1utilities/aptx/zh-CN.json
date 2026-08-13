@@ -3,7 +3,7 @@
   "intro": "apt 的增强封装，装 / 卸软件后自动推荐同类软件。",
   "restores": "装软件时的「全家桶推荐」流氓体验。",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1LNgG69EMe",
   "url": "https://github.com/WenAnrong/aptx",
   "authors": [
     {

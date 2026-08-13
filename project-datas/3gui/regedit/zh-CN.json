@@ -3,7 +3,7 @@
   "intro": "把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。",
   "restores": "注册表编辑器界面（左侧树 + 右侧键值）。",
   "license": "GPL-3.0（README 声明，未附 LICENSE 文件）",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1CWuV6iEW6",
   "url": "https://github.com/heyManNice/regedit",
   "authors": [
     {

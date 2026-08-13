@@ -3,7 +3,7 @@
   "intro": "An enhanced apt wrapper that recommends similar software after installing/removing packages.",
   "restores": "The 'bundleware recommendations' nuisance experience when installing software.",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1LNgG69EMe",
   "url": "https://github.com/WenAnrong/aptx",
   "authors": [
     {

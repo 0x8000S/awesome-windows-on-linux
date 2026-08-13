@@ -3,7 +3,7 @@
   "intro": "A binary conversion tool that offline-converts Windows PE executables into Linux ELF at the file-format level.",
   "restores": "PE / ELF file format structures (header, section table, program headers, dynamic segment).",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1p1gE6DEVF",
   "url": "https://github.com/dyz131005/LinuxForWindows",
   "authors": [
     {

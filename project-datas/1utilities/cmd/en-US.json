@@ -3,7 +3,7 @@
   "intro": "A faithful reimplementation of Windows `cmd.exe` written from scratch in pure C89, with zero POSIX dependencies, running on any Unix.",
   "restores": "The Windows `cmd.exe` command interpreter (batch scripting, pipes/redirection, 40+ built-in commands).",
   "license": "GPL-3.0",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1wkuH64EE8",
   "url": "https://github.com/ChenPi11/cmd",
   "authors": [
     {

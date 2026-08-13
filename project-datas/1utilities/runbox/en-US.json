@@ -3,7 +3,7 @@
   "intro": "A run dialog on Linux that pops up with `Super+R`, with an Adwaita look following the system theme.",
   "restores": "The Win+R 'Run' dialog.",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1CxgJ6pEHr",
   "url": "https://github.com/HelloAIXIAOJI/runbox",
   "authors": [
     {

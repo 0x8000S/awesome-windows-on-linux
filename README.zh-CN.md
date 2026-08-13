@@ -40,7 +40,7 @@
 - 作者：[WenAnrong](https://github.com/WenAnrong)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1LNgG69EMe
 
 ### [cmd](https://github.com/ChenPi11/cmd)
 
@@ -52,7 +52,7 @@
 - 作者：[ChenPi11](https://github.com/ChenPi11)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN / zh-MS / zh-WY
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1wkuH64EE8
 
 ### [runbox](https://github.com/HelloAIXIAOJI/runbox)
 
@@ -64,7 +64,7 @@
 - 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1CxgJ6pEHr
 
 ### [Windowshit](https://github.com/HelloAIXIAOJI/windowshit)
 
@@ -76,11 +76,11 @@
 - 作者：[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1Pzuy6oEZm
 
 ## 硬核逆向 / 底层格式
 
-> 正经技术项目：研究 Windows 程序怎么在 Linux 上存活。
+> 正经技术项目
 
 ### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
@@ -92,7 +92,7 @@
 - 作者：[dyz131005](https://github.com/dyz131005)
 - 主要语言：zh-CN
 - 支持语言：zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1p1gE6DEVF
 
 ## GUI 复刻
 
@@ -108,7 +108,7 @@
 - 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
 - 主要语言：zh-CN
 - 支持语言：zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1ZWgV68EtU
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux)
 
@@ -120,7 +120,7 @@
 - 作者：[WindowsUninstaller](https://gitee.com/windowsuninstaller)
 - 主要语言：zh-CN
 - 支持语言：zh-CN / en-US
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1gVuB6nEQk
 
 ### [regedit](https://github.com/heyManNice/regedit)
 
@@ -132,7 +132,7 @@
 - 作者：[heyManNice](https://github.com/heyManNice)
 - 主要语言：zh-CN
 - 支持语言：zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1CWuV6iEW6
 
 ## 整活恶搞
 
@@ -148,7 +148,7 @@
 - 作者：[MEKCCK](https://github.com/MEKCCK)
 - 主要语言：zh-CN
 - 支持语言：zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1ARgV6gEGm
 
 ### [bsod](https://github.com/heyManNice/bsod)
 
@@ -160,7 +160,7 @@
 - 作者：[heyManNice](https://github.com/heyManNice)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN / zh-TW / ja / ko
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
@@ -172,7 +172,7 @@
 - 作者：[WenAnrong](https://github.com/WenAnrong)
 - 主要语言：en-US
 - 支持语言：en-US / zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV15iuR6zEBE
 
 ---
 
@@ -249,4 +249,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 14:20 UTC*
+*生成于: 2026-08-13 14:33 UTC*

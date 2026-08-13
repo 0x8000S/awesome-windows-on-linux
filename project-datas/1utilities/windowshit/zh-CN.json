@@ -3,7 +3,7 @@
   "intro": "用 Rust 重写的 Windows 命令行工具合集，跨平台运行。",
   "restores": "24 个 Windows 命令行工具（ipconfig / ping / robocopy / systeminfo…）。",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV1Pzuy6oEZm",
   "url": "https://github.com/HelloAIXIAOJI/windowshit",
   "authors": [
     {

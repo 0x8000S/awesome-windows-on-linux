@@ -3,7 +3,7 @@
   "intro": "伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。",
   "restores": "Windows 更新界面（成功进度 / 失败蓝屏）。",
   "license": "MIT",
-  "video": "",
+  "video": "https://www.bilibili.com/video/BV15iuR6zEBE",
   "url": "https://github.com/WenAnrong/windows_update_in_linux",
   "authors": [
     {
