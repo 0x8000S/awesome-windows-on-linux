@@ -205,7 +205,7 @@ Restores: The Win10 Blue Screen of Death interface (with QR code).
 - Supported languages: en-US / zh-CN / zh-TW / ja / ko
 - Intro video: https://www.bilibili.com/video/BV1xcuU6uEyw
 
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows) [Practical]
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
 Intro: A binary conversion tool that offline-converts Windows PE executables into Linux ELF at the file-format level.
 
@@ -308,4 +308,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 17:34 UTC*
+*Generated at: 2026-08-13 17:46 UTC*

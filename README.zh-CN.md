@@ -205,7 +205,7 @@
 - 支持语言：en-US / zh-CN / zh-TW / ja / ko
 - 介绍视频：https://www.bilibili.com/video/BV1xcuU6uEyw
 
-### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows) [实用]
+### [LinuxForWindows](https://github.com/dyz131005/LinuxForWindows)
 
 介绍：从文件格式层面把 Windows PE 可执行文件离线转换为 Linux ELF 的二进制转换工具。
 
@@ -308,4 +308,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 17:34 UTC*
+*生成于: 2026-08-13 17:46 UTC*
