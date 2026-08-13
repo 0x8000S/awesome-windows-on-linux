@@ -3,6 +3,13 @@
   "tagline": "把 Windows 的「体验」搬到 Linux 上的项目合集 —— 从硬核逆向到恶趣味整活，一网打尽。",
   "description": "这个列表收录了在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目。按「整活浓度」从高到低排列，分为**硬核逆向**、**实用工具**、**GUI 复刻**、**整活恶搞**四大类。",
   "toc_title": "目录",
+  "nav_title": "文档",
+  "nav": [
+    { "label": "贡献", "anchor": "贡献" },
+    { "label": "创建自己的项目条目", "anchor": "创建自己的项目条目" },
+    { "label": "常见问题", "anchor": "常见问题" },
+    { "label": "许可", "anchor": "许可" }
+  ],
   "contribute_title": "贡献",
   "contribute_text": "欢迎提交 PR 补充更多「Windows on Linux」项目。条目建议包含：项目链接、许可证、作者、主要 / 支持语言、一句话介绍、还原的部分。",
   "guide_title": "创建自己的项目条目",

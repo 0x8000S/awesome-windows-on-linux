@@ -3,6 +3,13 @@
   "tagline": "A collection of projects that bring the Windows experience to Linux — from hardcore reverse engineering to hilarious pranks.",
   "description": "This list collects open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux. Sorted roughly by 'fun factor', grouped into four categories: **hardcore reverse engineering**, **practical tools**, **GUI replicas**, and **pranks**.",
   "toc_title": "Contents",
+  "nav_title": "Docs",
+  "nav": [
+    { "label": "Contribute", "anchor": "contribute" },
+    { "label": "Create your own project entry", "anchor": "create-your-own-project-entry" },
+    { "label": "Troubleshooting", "anchor": "troubleshooting" },
+    { "label": "License", "anchor": "license" }
+  ],
   "contribute_title": "Contribute",
   "contribute_text": "Welcome to submit PRs to add more \"Windows on Linux\" projects. Each entry should include: project link, license, authors, primary/supported languages, a one-line intro, and what Windows part it restores.",
   "guide_title": "Create your own project entry",

@@ -18,6 +18,12 @@ This list collects open-source projects that replicate, simulate, or parody the 
 - [GUI Replicas](#gui-replicas)
 - [Pranks](#pranks)
 
+- **Docs**
+  - [Contribute](#contribute)
+  - [Create your own project entry](#create-your-own-project-entry)
+  - [Troubleshooting](#troubleshooting)
+  - [License](#license)
+
 ---
 
 ## Practical Tools
@@ -243,4 +249,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:11 UTC*
+*Generated at: 2026-08-13 14:16 UTC*

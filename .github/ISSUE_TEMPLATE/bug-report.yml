@@ -1,0 +1,44 @@
+name: 报告问题 / Bug report
+description: 报告脚本或数据的问题 / Report a problem with the scripts or data
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: desc
+    attributes:
+      label: 问题描述 / Description
+      description: 发生了什么？预期是什么？/ What happened and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      placeholder: |
+        1. Run `python main.py ...`
+        2. ...
+    validations:
+      required: false
+
+  - type: input
+    id: cmd
+    attributes:
+      label: 相关命令 / Related command
+      description: 你运行了哪个命令 / Which command you ran
+      placeholder: python main.py generate
+    validations:
+      required: false
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: 操作系统 / OS
+      options:
+        - Linux
+        - Windows
+        - macOS
+        - 其他 / Other
+      default: 0
+    validations:
+      required: false

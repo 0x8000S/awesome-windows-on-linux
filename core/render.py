@@ -82,6 +82,16 @@ def render(meta, groups, lang, all_langs, generated_at=""):
     lines.append("")
     for g in groups:
         lines.append(f"- [{g['meta']['name']}](#{slugify(g['meta']['name'])})")
+
+    # 独立于组目录的文档导航
+    nav_title = meta.get("nav_title", "")
+    nav = meta.get("nav", [])
+    if nav_title and nav:
+        lines.append("")
+        lines.append(f"- **{nav_title}**")
+        for item in nav:
+            lines.append(f"  - [{item['label']}](#{item['anchor']})")
+
     lines.append("")
     lines.append("---")
     lines.append("")

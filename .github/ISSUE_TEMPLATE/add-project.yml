@@ -1,0 +1,56 @@
+name: 添加新项目 / Add a new project
+description: 推荐一个「Windows on Linux」项目收录进来 / Recommend a Windows-on-Linux project for inclusion
+title: "[Add] "
+labels: ["new project"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 项目名 / Project name
+      description: 项目显示名 / Display name of the project
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: 仓库地址 / Repository URL
+      description: GitHub / Gitee 仓库链接 / Link to the repository
+    validations:
+      required: true
+
+  - type: dropdown
+    id: group
+    attributes:
+      label: 建议的组 / Suggested group
+      options:
+        - 实用工具 / Practical Tools
+        - 硬核逆向 / Hardcore Reverse Engineering
+        - GUI 复刻 / GUI Replicas
+        - 整活恶搞 / Pranks
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: intro
+    attributes:
+      label: 一句话介绍 / One-line intro
+      description: 这个项目是做什么的 / What this project does
+    validations:
+      required: true
+
+  - type: textarea
+    id: restores
+    attributes:
+      label: 还原了 Windows 的哪个部分 / Which Windows part it restores
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: 许可证 / License
+      placeholder: MIT, GPL-3.0, ...
+    validations:
+      required: false

@@ -22,7 +22,7 @@ REQUIRED_FIELDS = {
 
 # 各实体可含的额外字段（多定义检查时警告，但不算错误）
 KNOWN_EXTRA_FIELDS = {
-    "meta": ["fields"],
+    "meta": ["fields", "nav_title", "nav"],
     "group": [],
     "project": ["video"],
 }
