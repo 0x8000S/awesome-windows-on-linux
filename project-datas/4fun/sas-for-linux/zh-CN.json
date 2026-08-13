@@ -1,0 +1,18 @@
+{
+  "name": "SAS-for-Linux",
+  "intro": "用 C++/Qt 6 实现的 Windows 11 风格 Ctrl+Alt+Delete 安全选项屏，支持 X11 与 Wayland（GNOME/KDE/Sway/Hyprland/Niri）。",
+  "restores": "Windows 11 安全选项屏幕（锁定/切换用户/注销/更改密码/任务管理器 + 网络/无障碍/电源）。",
+  "license": "未标注",
+  "video": "https://www.bilibili.com/video/BV1FQgn6sERt",
+  "url": "https://github.com/macOS-Terminal/SAS-for-Linux",
+  "authors": [
+    {
+      "name": "macOS-Terminal",
+      "url": "https://github.com/macOS-Terminal"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ]
+}

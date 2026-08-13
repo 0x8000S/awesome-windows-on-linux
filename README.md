@@ -122,6 +122,18 @@ Restores: The MMC console (MDI child windows, snap-ins, window embedding).
 - Supported languages: zh-CN / en-US
 - Intro video: https://www.bilibili.com/video/BV1gVuB6nEQk
 
+### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux)
+
+Intro: A standalone program that recreates Windows Notepad on Linux.
+
+Restores: The Windows Notepad interface.
+
+- License: Unspecified
+- Authors: [linux-user-114514](https://github.com/linux-user-114514)
+- Primary language: en-US
+- Supported languages: en-US
+- Intro video: https://www.bilibili.com/video/BV1aigV6HETK
+
 ### [regedit](https://github.com/heyManNice/regedit)
 
 Intro: A system configuration file browser that maps `/etc`, `~/.config`, and `/boot` to a registry tree and auto-detects multiple config formats.
@@ -173,6 +185,18 @@ Restores: The Windows UAC dialog (dim & freeze + password check + Yes/No + chime
 - Primary language: en-US
 - Supported languages: en-US
 - Intro video: https://www.bilibili.com/video/BV1qjgn6EErZ
+
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
+
+Intro: A Windows 11-style Ctrl+Alt+Delete secure attention screen implemented in C++/Qt 6, supporting X11 and Wayland (GNOME/KDE/Sway/Hyprland/Niri).
+
+Restores: The Windows 11 secure attention screen (lock / switch user / log out / change password / task manager + network / accessibility / power).
+
+- License: Unspecified
+- Authors: [macOS-Terminal](https://github.com/macOS-Terminal)
+- Primary language: en-US
+- Supported languages: en-US
+- Intro video: https://www.bilibili.com/video/BV1FQgn6sERt
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
@@ -261,4 +285,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:37 UTC*
+*Generated at: 2026-08-13 14:47 UTC*

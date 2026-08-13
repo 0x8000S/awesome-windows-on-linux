@@ -122,6 +122,18 @@
 - 支持语言：zh-CN / en-US
 - 介绍视频：https://www.bilibili.com/video/BV1gVuB6nEQk
 
+### [NotepadOnLinux](https://github.com/linux-user-114514/NotepadOnLinux)
+
+介绍：在 Linux 上还原 Windows 记事本的独立程序。
+
+还原的部分：Windows 记事本（Notepad）界面。
+
+- 许可证：未标注
+- 作者：[linux-user-114514](https://github.com/linux-user-114514)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1aigV6HETK
+
 ### [regedit](https://github.com/heyManNice/regedit)
 
 介绍：把 `/etc`、`~/.config`、`/boot` 映射成注册表树、自动嗅探多种配置格式的系统配置文件浏览器。
@@ -173,6 +185,18 @@
 - 主要语言：zh-CN
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1qjgn6EErZ
+
+### [SAS-for-Linux](https://github.com/macOS-Terminal/SAS-for-Linux)
+
+介绍：用 C++/Qt 6 实现的 Windows 11 风格 Ctrl+Alt+Delete 安全选项屏，支持 X11 与 Wayland（GNOME/KDE/Sway/Hyprland/Niri）。
+
+还原的部分：Windows 11 安全选项屏幕（锁定/切换用户/注销/更改密码/任务管理器 + 网络/无障碍/电源）。
+
+- 许可证：未标注
+- 作者：[macOS-Terminal](https://github.com/macOS-Terminal)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1FQgn6sERt
 
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux)
 
@@ -261,4 +285,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 14:37 UTC*
+*生成于: 2026-08-13 14:47 UTC*
