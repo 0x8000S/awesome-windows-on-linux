@@ -15,6 +15,7 @@ This list collects open-source projects that replicate, simulate, or parody the 
 
 ## Contents
 
+- [Info](#info)
 - [Practical Tools](#practical-tools)
 - [Hardcore Reverse Engineering](#hardcore-reverse-engineering)
 - [GUI Replicas](#gui-replicas)
@@ -27,6 +28,22 @@ This list collects open-source projects that replicate, simulate, or parody the 
   - [License](#license)
 
 ---
+
+## Info
+
+> I don't know what to put here either, haha.
+
+### [Awesome Windows on Linux](https://github.com/windowix/awesome-windows-on-linux)
+
+Intro: A curated collection of open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux.
+
+Restores: Curating and organizing projects that recreate Windows.
+
+- License: MIT
+- Authors: [windowix](https://github.com/windowix), [HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
 
 ## Practical Tools
 
@@ -287,4 +304,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-13 14:57 UTC*
+*Generated at: 2026-08-13 15:57 UTC*

@@ -1,0 +1,22 @@
+{
+  "name": "Awesome Windows on Linux",
+  "intro": "收录并整理在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目合集。",
+  "restores": "收录与整理还原Windows的项目",
+  "license": "MIT",
+  "url": "https://github.com/windowix/awesome-windows-on-linux",
+  "authors": [
+    {
+      "name": "windowix",
+      "url": "https://github.com/windowix"
+    },
+    {
+      "name": "HelloAIXIAOJI",
+      "url": "https://github.com/HelloAIXIAOJI"
+    }
+  ],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ]
+}

@@ -15,6 +15,7 @@
 
 ## 目录
 
+- [信息](#信息)
 - [实用工具](#实用工具)
 - [硬核逆向 / 底层格式](#硬核逆向--底层格式)
 - [GUI 复刻](#gui-复刻)
@@ -27,6 +28,22 @@
   - [许可](#许可)
 
 ---
+
+## 信息
+
+> 我也不知道这里写什么，哈哈哈
+
+### [Awesome Windows on Linux](https://github.com/windowix/awesome-windows-on-linux)
+
+介绍：收录并整理在 Linux 上复刻 / 模拟 / 恶搞 Windows 生态的开源项目合集。
+
+还原的部分：收录与整理还原Windows的项目
+
+- 许可证：MIT
+- 作者：[windowix](https://github.com/windowix)、[HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
+- 介绍视频：（待补充）
 
 ## 实用工具
 
@@ -287,4 +304,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-13 14:57 UTC*
+*生成于: 2026-08-13 15:57 UTC*

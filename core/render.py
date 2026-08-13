@@ -51,6 +51,9 @@ def render(meta, groups, lang, all_langs, generated_at=""):
     # 冒号：中文用全角，其他语言用半角
     colon = "：" if lang.startswith("zh") else ": "
 
+    # 列表分隔符：中文用顿号，其他语言用逗号
+    list_sep = "、" if lang.startswith("zh") else ", "
+
     lines = []
     lines.append(f"# {meta['title']}")
     lines.append("")
@@ -122,7 +125,7 @@ def render(meta, groups, lang, all_langs, generated_at=""):
             # 作者数组
             authors = p.get("authors", [])
             author_links = [f"[{a['name']}]({a['url']})" for a in authors]
-            lines.append(f"- {f_authors}{colon}" + "、".join(author_links))
+            lines.append(f"- {f_authors}{colon}" + list_sep.join(author_links))
             # 语言
             lines.append(f"- {f_lang_primary}{colon}" + p.get("lang_primary", ""))
             supported = p.get("lang_supported", [])
