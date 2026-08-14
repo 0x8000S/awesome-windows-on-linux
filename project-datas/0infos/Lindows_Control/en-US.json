@@ -1,0 +1,14 @@
+{
+  "name": "Lindows_Control",
+  "intro": "I fixed the bug where the control panel couldn't be used on Linux. Currently, this program doesn't have an English version。",
+  "restores": "Control",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/BobbyChengCN0518/Lindows_Control",
+  "authors": [{"name": "BobbyChengCN0518", "url": "https://github.com/BobbyChengCN0518"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "prank"
+}
