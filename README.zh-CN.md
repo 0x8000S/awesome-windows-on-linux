@@ -89,6 +89,18 @@
 
 > 复刻 Windows 桌面界面的图形应用程序。
 
+### [Windows 搜索](https://github.com/WhatDamon/WindowsSearch) [整活]
+
+介绍：将 Windows 上赤石的搜索体验带入 *nix 世界
+
+还原的部分：Windows 的任务栏搜索与索引功能
+
+- 许可证：WTFPL
+- 作者：[WhatDamon](https://github.com/WhatDamon)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1jruf6QEmh
+
 ### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [整活]
 
 介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
@@ -308,4 +320,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-14 01:03 UTC*
+*生成于: 2026-08-14 02:48 UTC*

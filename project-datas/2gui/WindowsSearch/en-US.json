@@ -1,0 +1,19 @@
+{
+  "name": "Windows Search",
+  "intro": "A standalone app that brings the poor search experience from Windows to the *nix world",
+  "restores": "Windows Taskbar Search and Indexing Features",
+  "license": "WTFPL",
+  "video": "https://www.bilibili.com/video/BV1jruf6QEmh",
+  "url": "https://github.com/WhatDamon/WindowsSearch",
+  "authors": [
+    {
+      "name": "WhatDamon",
+      "url": "https://github.com/WhatDamon"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "prank"
+}
