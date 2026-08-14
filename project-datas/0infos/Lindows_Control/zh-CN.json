@@ -1,0 +1,14 @@
+{
+  "name": "Lindows_Control",
+  "intro": "我修复了Linux上不能使用控制面板的Bug，目前这个程序没有英文",
+  "restores": "控制面板",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/BobbyChengCN0518/Lindows_Control",
+  "authors": [{"name": "BobbyChengCN0518", "url": "https://github.com/BobbyChengCN0518"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "prank"
+}
