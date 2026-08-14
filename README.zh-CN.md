@@ -89,6 +89,18 @@
 
 > 复刻 Windows 桌面界面的图形应用程序。
 
+### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [整活]
+
+介绍：我修复了Linux上不能使用控制面板的Bug，目前这个程序没有英文
+
+还原的部分：控制面板
+
+- 许可证：MIT
+- 作者：[BobbyChengCN0518](https://github.com/BobbyChengCN0518)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：（待补充）
+
 ### [Windows 搜索](https://github.com/WhatDamon/WindowsSearch) [整活]
 
 介绍：将 Windows 上赤石的搜索体验带入 *nix 世界
@@ -320,4 +332,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-14 02:48 UTC*
+*生成于: 2026-08-14 13:19 UTC*
