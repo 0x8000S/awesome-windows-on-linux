@@ -89,6 +89,18 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 > Graphical apps that recreate Windows desktop interfaces.
 
+### [Windows Search](https://github.com/WhatDamon/WindowsSearch) [Prank]
+
+Intro: A standalone app that brings the poor search experience from Windows to the *nix world
+
+Restores: Windows Taskbar Search and Indexing Features
+
+- License: WTFPL
+- Authors: [WhatDamon](https://github.com/WhatDamon)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1jruf6QEmh
+
 ### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [Prank]
 
 Intro: A desktop program that deeply replicates the Win11 file-management experience on Linux.
@@ -308,4 +320,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-14 01:03 UTC*
+*Generated at: 2026-08-14 02:48 UTC*

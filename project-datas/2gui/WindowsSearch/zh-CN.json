@@ -1,0 +1,19 @@
+{
+  "name": "Windows 搜索",
+  "intro": "将 Windows 上赤石的搜索体验带入 *nix 世界",
+  "restores": "Windows 的任务栏搜索与索引功能",
+  "license": "WTFPL",
+  "video": "https://www.bilibili.com/video/BV1jruf6QEmh",
+  "url": "https://github.com/WhatDamon/WindowsSearch",
+  "authors": [
+    {
+      "name": "WhatDamon",
+      "url": "https://github.com/WhatDamon"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "prank"
+}
