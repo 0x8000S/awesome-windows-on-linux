@@ -201,11 +201,11 @@ Restores: Windows-style malicious ad popups (animated images / video / audio / p
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1ARgV6gEGm
 
-### [libschrodinger](https://github.com/LyCecilion/libschrodinger)
+### [libobscure](https://github.com/LyCecilion/libobscure) [Prank]
 
-Intro: Pops up an "application error" dialog when a program encounters a fatal error.
+Intro: Replace the error messages with Windows-style error codes.
 
-Restores: The "application error" dialog.
+Restores: Windows-style error codes.
 
 - License: MIT
 - Authors: [Limity'roChen](https://github.com/LyCecilion)

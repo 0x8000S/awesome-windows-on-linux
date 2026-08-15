@@ -1,0 +1,14 @@
+{
+    "name": "libobscure",
+    "intro": "Replace the error messages with Windows-style error codes.",
+    "restores": "Windows-style error codes.",
+    "license": "MIT",
+    "video": "https://www.bilibili.com/video/BV1QVgc6UEcw/",
+    "url": "https://github.com/LyCecilion/libobscure",
+    "authors": [
+        { "name": "Limity'roChen", "url": "https://github.com/LyCecilion" }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN", "en-US"],
+    "intent": "prank"
+}
