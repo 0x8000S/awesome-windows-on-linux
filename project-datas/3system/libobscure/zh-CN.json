@@ -1,0 +1,14 @@
+{
+    "name": "libobscure",
+    "intro": "将报错信息修改为 Windows 风格的错误代码。",
+    "restores": "Windows 风格的错误代码。",
+    "license": "MIT",
+    "video": "https://www.bilibili.com/video/BV1QVgc6UEcw/",
+    "url": "https://github.com/LyCecilion/libobscure",
+    "authors": [
+        { "name": "Limity'roChen", "url": "https://github.com/LyCecilion" }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN", "en-US"],
+    "intent": "prank"
+}
