@@ -201,6 +201,18 @@ Restores: Windows-style malicious ad popups (animated images / video / audio / p
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1ARgV6gEGm
 
+### [libschrodinger](https://github.com/LyCecilion/libschrodinger)
+
+Intro: Pops up an "application error" dialog when a program encounters a fatal error.
+
+Restores: The "application error" dialog.
+
+- License: MIT
+- Authors: [Limity'roChen](https://github.com/LyCecilion)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: https://www.bilibili.com/video/BV1Qag36jETo/
+
 ### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [Prank]
 
 Intro: Recreates Windows UAC (User Account Control) on Linux via a custom PAM module: the screen dims and freezes, then a password prompt appears when you run sudo.
@@ -332,4 +344,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 00:38 UTC*
+*Generated at: 2026-08-15 02:24 UTC*
