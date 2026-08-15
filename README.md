@@ -35,14 +35,15 @@ This list collects open-source projects that replicate, simulate, or parody the 
 
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
-Intro: I fixed the bug where the control panel couldn't be used on Linux. Currently, this program doesn't have an English version。
+Intro: I fixed the bug where the control panel couldn't be used on Linux. 
+ The language can be configured via a JSON file, with zh and en being the default supported languages
 
 Restores: Control
 
 - License: MIT
 - Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
 - Primary language: zh-CN
-- Supported languages: zh-CN
+- Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
 ### [Awesome Windows on Linux](https://github.com/windowix/awesome-windows-on-linux)
@@ -332,4 +333,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-14 11:08 UTC*
+*Generated at: 2026-08-15 01:04 UTC*

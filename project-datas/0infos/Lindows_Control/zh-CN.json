@@ -1,6 +1,6 @@
 {
   "name": "Lindows_Control",
-  "intro": "我修复了Linux上不能使用控制面板的Bug，目前这个程序没有英文",
+  "intro": "我修复了Linux上不能使用控制面板的Bug \n 可以通过json文件配置改语言，默认支持zh和en两种语言",
   "restores": "控制面板",
   "license": "MIT",
   "video": "",
@@ -8,7 +8,8 @@
   "authors": [{"name": "BobbyChengCN0518", "url": "https://github.com/BobbyChengCN0518"}],
   "lang_primary": "zh-CN",
   "lang_supported": [
-    "zh-CN"
+    "zh-CN",
+    "en-US"
   ],
   "intent": "prank"
 }
