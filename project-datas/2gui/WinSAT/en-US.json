@@ -1,0 +1,20 @@
+{
+  "name": "WinSAT for *nix",
+  "intro": "A standalone software designed to provide a Windows-style system performance assessment and experience index.",
+  "restores": "Windows System Assessment Toolkit",
+  "license": "WTFPL",
+  "video": "https://www.bilibili.com/video/BV1MegT68E15",
+  "url": "https://github.com/WhatDamon/WinSAT",
+  "authors": [
+    {
+      "name": "WhatDamon",
+      "url": "https://github.com/WhatDamon"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "mixed"
+}

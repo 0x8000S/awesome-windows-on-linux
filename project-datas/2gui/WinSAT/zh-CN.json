@@ -1,0 +1,20 @@
+{
+  "name": "WinSAT for *nix",
+  "intro": "为 *nix 提供 Windows 风味的系统评测体验和体验指数",
+  "restores": "Windows 系统评估工具",
+  "license": "WTFPL",
+  "video": "https://www.bilibili.com/video/BV1MegT68E15",
+  "url": "https://github.com/WhatDamon/WinSAT",
+  "authors": [
+    {
+      "name": "WhatDamon",
+      "url": "https://github.com/WhatDamon"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "mixed"
+}
