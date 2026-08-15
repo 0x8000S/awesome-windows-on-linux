@@ -201,17 +201,17 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1ARgV6gEGm
 
-### [libobscure](https://github.com/LyCecilion/libobscure) [整活]
+### [libschrodinger](https://github.com/LyCecilion/libschrodinger)
 
-介绍：将报错信息修改为 Windows 风格的错误代码。
+介绍：在程序遇到致命错误时弹出「应用程序错误」对话框
 
-还原的部分：Windows 风格的错误代码。
+还原的部分：「应用程序错误」对话框
 
 - 许可证：MIT
 - 作者：[Limity'roChen](https://github.com/LyCecilion)
 - 主要语言：zh-CN
 - 支持语言：zh-CN / en-US
-- 介绍视频：https://www.bilibili.com/video/BV1QVgc6UEcw/
+- 介绍视频：https://www.bilibili.com/video/BV1Qag36jETo/
 
 ### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [整活]
 
@@ -344,4 +344,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-15 02:14 UTC*
+*生成于: 2026-08-15 02:24 UTC*

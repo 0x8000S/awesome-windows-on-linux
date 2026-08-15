@@ -211,7 +211,7 @@ Restores: Windows-style error codes.
 - Authors: [Limity'roChen](https://github.com/LyCecilion)
 - Primary language: zh-CN
 - Supported languages: zh-CN / en-US
-- Intro video: https://www.bilibili.com/video/BV1QVgc6UEcw/
+- Intro video: https://www.bilibili.com/video/BV1Qag36jETo/
 
 ### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [Prank]
 
@@ -344,4 +344,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 02:14 UTC*
+*Generated at: 2026-08-15 02:24 UTC*

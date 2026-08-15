@@ -1,0 +1,14 @@
+{
+    "name": "libschrodinger",
+    "intro": "Pops up an \"application error\" dialog when a program encounters a fatal error.",
+    "restores": "The \"application error\" dialog.",
+    "license": "MIT",
+    "video": "https://www.bilibili.com/video/BV1Qag36jETo/",
+    "url": "https://github.com/LyCecilion/libschrodinger",
+    "authors": [
+        { "name": "Limity'roChen", "url": "https://github.com/LyCecilion" }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN", "en-US"],
+    "intent": "mixed"
+}

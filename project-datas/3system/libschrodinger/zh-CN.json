@@ -1,0 +1,14 @@
+{
+    "name": "libschrodinger",
+    "intro": "在程序遇到致命错误时弹出「应用程序错误」对话框",
+    "restores": "「应用程序错误」对话框",
+    "license": "MIT",
+    "video": "https://www.bilibili.com/video/BV1Qag36jETo/",
+    "url": "https://github.com/LyCecilion/libschrodinger",
+    "authors": [
+        { "name": "Limity'roChen", "url": "https://github.com/LyCecilion" }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN", "en-US"],
+    "intent": "mixed"
+}
