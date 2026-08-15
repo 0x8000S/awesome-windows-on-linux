@@ -102,6 +102,18 @@ Restores: Control
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
+### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
+
+Intro: A standalone software designed to provide a Windows-style system performance assessment and experience index.
+
+Restores: Windows System Assessment Toolkit
+
+- License: WTFPL
+- Authors: [WhatDamon](https://github.com/WhatDamon)
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV1MegT68E15
+
 ### [Windows Search](https://github.com/WhatDamon/WindowsSearch) [Prank]
 
 Intro: A standalone app that brings the poor search experience from Windows to the *nix world
@@ -357,4 +369,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 07:42 UTC*
+*Generated at: 2026-08-15 12:47 UTC*

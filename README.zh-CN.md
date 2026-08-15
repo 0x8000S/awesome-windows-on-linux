@@ -102,6 +102,18 @@
 - 支持语言：zh-CN / en-US
 - 介绍视频：（待补充）
 
+### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
+
+介绍：为 *nix 提供 Windows 风味的系统评测体验和体验指数
+
+还原的部分：Windows 系统评估工具
+
+- 许可证：WTFPL
+- 作者：[WhatDamon](https://github.com/WhatDamon)
+- 主要语言：zh-CN
+- 支持语言：en-US / zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1MegT68E15
+
 ### [Windows 搜索](https://github.com/WhatDamon/WindowsSearch) [整活]
 
 介绍：将 Windows 上赤石的搜索体验带入 *nix 世界
@@ -357,4 +369,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-15 07:42 UTC*
+*生成于: 2026-08-15 12:47 UTC*
