@@ -33,19 +33,6 @@ This list collects open-source projects that replicate, simulate, or parody the 
 
 > I don't know what to put here either, haha.
 
-### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
-
-Intro: I fixed the bug where the control panel couldn't be used on Linux. 
- The language can be configured via a JSON file, with zh and en being the default supported languages
-
-Restores: Control
-
-- License: MIT
-- Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
-- Primary language: zh-CN
-- Supported languages: zh-CN / en-US
-- Intro video: (pending)
-
 ### [Awesome Windows on Linux](https://github.com/windowix/awesome-windows-on-linux)
 
 Intro: A curated collection of open-source projects that replicate, simulate, or parody the Windows ecosystem on Linux.
@@ -101,6 +88,19 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 ## GUI Applications
 
 > Graphical apps that recreate Windows desktop interfaces.
+
+### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
+
+Intro: I fixed the bug where the control panel couldn't be used on Linux. 
+ The language can be configured via a JSON file, with zh and en being the default supported languages
+
+Restores: Control
+
+- License: MIT
+- Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
 
 ### [Windows Search](https://github.com/WhatDamon/WindowsSearch) [Prank]
 
@@ -333,4 +333,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 01:04 UTC*
+*Generated at: 2026-08-15 06:08 UTC*
