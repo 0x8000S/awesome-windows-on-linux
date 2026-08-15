@@ -212,6 +212,18 @@ Restores: Windows-style error codes.
 - Authors: [Limity'roChen](https://github.com/LyCecilion)
 - Primary language: zh-CN
 - Supported languages: zh-CN / en-US
+- Intro video: https://www.bilibili.com/video/BV1QVgc6UEcw/
+
+### [libschrodinger](https://github.com/LyCecilion/libschrodinger)
+
+Intro: Pops up an "application error" dialog when a program encounters a fatal error.
+
+Restores: The "application error" dialog.
+
+- License: MIT
+- Authors: [Limity'roChen](https://github.com/LyCecilion)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
 - Intro video: https://www.bilibili.com/video/BV1Qag36jETo/
 
 ### [Linux_uac](https://github.com/WenAnrong/Linux_uac) [Prank]
@@ -345,4 +357,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 06:08 UTC*
+*Generated at: 2026-08-15 07:42 UTC*

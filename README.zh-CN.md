@@ -91,14 +91,15 @@
 
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [整活]
 
-介绍：我修复了Linux上不能使用控制面板的Bug，目前这个程序没有英文
+介绍：我修复了Linux上不能使用控制面板的Bug 
+ 可以通过json文件配置改语言，默认支持zh和en两种语言
 
 还原的部分：控制面板
 
 - 许可证：MIT
 - 作者：[BobbyChengCN0518](https://github.com/BobbyChengCN0518)
 - 主要语言：zh-CN
-- 支持语言：zh-CN
+- 支持语言：zh-CN / en-US
 - 介绍视频：（待补充）
 
 ### [Windows 搜索](https://github.com/WhatDamon/WindowsSearch) [整活]
@@ -200,6 +201,18 @@
 - 主要语言：zh-CN
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1ARgV6gEGm
+
+### [libobscure](https://github.com/LyCecilion/libobscure) [整活]
+
+介绍：将报错信息修改为 Windows 风格的错误代码。
+
+还原的部分：Windows 风格的错误代码。
+
+- 许可证：MIT
+- 作者：[Limity'roChen](https://github.com/LyCecilion)
+- 主要语言：zh-CN
+- 支持语言：zh-CN / en-US
+- 介绍视频：https://www.bilibili.com/video/BV1QVgc6UEcw/
 
 ### [libschrodinger](https://github.com/LyCecilion/libschrodinger)
 
@@ -344,4 +357,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-15 02:24 UTC*
+*生成于: 2026-08-15 07:42 UTC*
