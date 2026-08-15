@@ -91,14 +91,15 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
-Intro: I fixed the bug where the control panel couldn't be used on Linux. Currently, this program doesn't have an English version。
+Intro: I fixed the bug where the control panel couldn't be used on Linux. 
+ The language can be configured via a JSON file, with zh and en being the default supported languages
 
 Restores: Control
 
 - License: MIT
 - Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
 - Primary language: zh-CN
-- Supported languages: zh-CN
+- Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
 ### [Windows Search](https://github.com/WhatDamon/WindowsSearch) [Prank]
@@ -344,4 +345,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-15 02:24 UTC*
+*Generated at: 2026-08-15 06:08 UTC*
