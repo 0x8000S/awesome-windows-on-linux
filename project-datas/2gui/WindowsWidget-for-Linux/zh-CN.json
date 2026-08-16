@@ -1,0 +1,11 @@
+{
+  "name": "WindowsWidget-for-Linux",
+  "intro": "仿照 Windows 11 小组件面板的 Linux 桌面小组件，从屏幕右侧边缘滑入显示，集成资讯/新闻、天气预报、日期时钟，并提供图形化设置。",
+  "restores": "windows小组件",
+  "license": "MIT License",
+  "url": "https://github.com/phillin-liu/WindowsWidget-for-Linux",
+  "authors": ["phillin-liu"],
+  "lang_primary": "zh-CN",
+  "lang_supported": ["zh-CN"],
+  "intent": "mixed"
+}
