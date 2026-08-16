@@ -4,7 +4,10 @@
   "restores": "windows小组件",
   "license": "MIT License",
   "url": "https://github.com/phillin-liu/WindowsWidget-for-Linux",
-  "authors": ["phillin-liu"],
+  "authors": [{
+      "name": "phillin-liu",
+      "url": "https://github.com/phillin-liu"
+    }],
   "lang_primary": "zh-CN",
   "lang_supported": ["zh-CN"],
   "intent": "mixed"
