@@ -49,6 +49,18 @@
 
 > 在 Unix 上还原 Windows 终端命令的命令行工具。
 
+### [PowerShell-For-Linux](https://github.com/SweetenedSuzuka/PowerShell-For-Linux) [实用]
+
+介绍：在 Linux 上运行的 PowerShell 风格命令解释器，纯 Go 实现、零第三方依赖，支持 5.X 与 7.X 两套命令格式。
+
+还原的部分：Windows PowerShell 的命令行体验：对象管道、114 个内置命令、.ps1 脚本，可用 PowerShell 风格命令直接操作 Linux 系统。
+
+- 许可证：MIT
+- 作者：[SweetenedSuzuka](https://github.com/SweetenedSuzuka)
+- 主要语言：zh-CN
+- 支持语言：zh-CN / en-US
+- 介绍视频：（待补充）
+
 ### [aptx](https://github.com/WenAnrong/aptx)
 
 介绍：apt 的增强封装，装 / 卸软件后自动推荐同类软件。
@@ -405,4 +417,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-16 10:03 UTC*
+*生成于: 2026-08-16 11:13 UTC*

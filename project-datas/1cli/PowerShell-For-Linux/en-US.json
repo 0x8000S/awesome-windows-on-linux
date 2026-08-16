@@ -1,0 +1,19 @@
+{
+  "name": "PowerShell-For-Linux",
+  "intro": "A PowerShell-style shell interpreter for Linux, implemented in pure Go with zero third-party dependencies, supporting both the 5.X and 7.X command sets.",
+  "restores": "The Windows PowerShell command-line experience: an object pipeline, 114 built-in cmdlets, and .ps1 scripting, letting you drive Linux with PowerShell-style commands.",
+  "license": "MIT",
+  "url": "https://github.com/SweetenedSuzuka/PowerShell-For-Linux",
+  "authors": [
+    {
+      "name": "SweetenedSuzuka",
+      "url": "https://github.com/SweetenedSuzuka"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ],
+  "intent": "practical"
+}
