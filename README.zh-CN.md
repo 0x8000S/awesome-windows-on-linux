@@ -172,7 +172,7 @@
 - 作者：[lanlan1o](https://github.com/lanlan1o)
 - 主要语言：zh-CN
 - 支持语言：zh-CN
-- 介绍视频：（待补充）
+- 介绍视频：https://www.bilibili.com/video/BV1opbS6rE2g
 
 ### [regedit](https://github.com/heyManNice/regedit) [实用]
 
@@ -381,4 +381,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-16 09:30 UTC*
+*生成于: 2026-08-16 09:31 UTC*

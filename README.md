@@ -172,7 +172,7 @@ Restores: Restores conhost.
 - Authors: [lanlan1o](https://github.com/lanlan1o)
 - Primary language: zh-CN
 - Supported languages: zh-CN
-- Intro video: (pending)
+- Intro video: https://www.bilibili.com/video/BV1opbS6rE2g
 
 ### [regedit](https://github.com/heyManNice/regedit) [Practical]
 
@@ -381,4 +381,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 09:30 UTC*
+*Generated at: 2026-08-16 09:31 UTC*
