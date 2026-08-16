@@ -1,0 +1,19 @@
+{
+  "name": "Animated-plasma-task",
+  "intro": "Adds Windows-style animations and decorations to the Linux (KDE) taskbar.",
+  "restores": "The Windows taskbar animation experience (icon press scale, minimize bounce, window entry/exit animations, hover highlight and indicator bar).",
+  "license": "GPL-2.0",
+  "url": "https://github.com/SkyShadowHero/Animated-plasma-task",
+  "authors": [
+    {
+      "name": "SkyShadowHero",
+      "url": "https://github.com/SkyShadowHero"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "practical"
+}

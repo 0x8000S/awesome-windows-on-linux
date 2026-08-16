@@ -1,0 +1,19 @@
+{
+  "name": "Animated-plasma-task",
+  "intro": "为 Linux (KDE) 任务栏添加 Windows 风格动画和装饰。",
+  "restores": "Windows 任务栏的动画交互体验（图标按压缩放、最小化弹跳、窗口入场/退出动画、悬停高亮与指示条）。",
+  "license": "GPL-2.0",
+  "url": "https://github.com/SkyShadowHero/Animated-plasma-task",
+  "authors": [
+    {
+      "name": "SkyShadowHero",
+      "url": "https://github.com/SkyShadowHero"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "practical"
+}
