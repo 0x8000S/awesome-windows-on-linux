@@ -1,0 +1,11 @@
+{
+  "name": "WindowsWidget-for-Linux",
+  "intro": "A Linux desktop widget panel modeled after the Windows 11 Widgets board; it slides in from the right edge of the screen and integrates news, weather forecasts, and a date/clock display, while offering a graphical settings interface.",
+  "restores": "Windows Widget",
+  "license": "MIT License",
+  "url": "https://github.com/phillin-liu/WindowsWidget-for-Linux",
+  "authors": ["phillin-liu"],
+  "lang_primary": "zh-CN",
+  "lang_supported": ["zh-CN"],
+  "intent": "mixed"
+}
