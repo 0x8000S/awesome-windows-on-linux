@@ -138,6 +138,18 @@ Restores: Windows Taskbar Search and Indexing Features
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1jruf6QEmh
 
+### [WindowsWidget-for-Linux](https://github.com/phillin-liu/WindowsWidget-for-Linux)
+
+Intro: A Linux desktop widget panel modeled after the Windows 11 Widgets board; it slides in from the right edge of the screen and integrates news, weather forecasts, and a date/clock display, while offering a graphical settings interface.
+
+Restores: Windows Widget
+
+- License: MIT License
+- Authors: [phillin-liu](https://github.com/phillin-liu)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
+
 ### [Animated-plasma-task](https://github.com/SkyShadowHero/Animated-plasma-task) [Practical]
 
 Intro: Adds Windows-style animations and decorations to the Linux (KDE) taskbar.
@@ -417,4 +429,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 11:13 UTC*
+*Generated at: 2026-08-16 14:59 UTC*

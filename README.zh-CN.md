@@ -138,6 +138,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1jruf6QEmh
 
+### [WindowsWidget-for-Linux](https://github.com/phillin-liu/WindowsWidget-for-Linux)
+
+介绍：仿照 Windows 11 小组件面板的 Linux 桌面小组件，从屏幕右侧边缘滑入显示，集成资讯/新闻、天气预报、日期时钟，并提供图形化设置。
+
+还原的部分：windows小组件
+
+- 许可证：MIT License
+- 作者：[phillin-liu](https://github.com/phillin-liu)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：（待补充）
+
 ### [Animated-plasma-task](https://github.com/SkyShadowHero/Animated-plasma-task) [实用]
 
 介绍：为 Linux (KDE) 任务栏添加 Windows 风格动画和装饰。
@@ -417,4 +429,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-16 11:13 UTC*
+*生成于: 2026-08-16 14:59 UTC*
