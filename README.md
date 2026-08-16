@@ -49,6 +49,18 @@ Restores: Curating and organizing projects that recreate Windows.
 
 > Command-line tools that restore Windows terminal commands on Unix.
 
+### [PowerShell-For-Linux](https://github.com/SweetenedSuzuka/PowerShell-For-Linux) [Practical]
+
+Intro: A PowerShell-style shell interpreter for Linux, implemented in pure Go with zero third-party dependencies, supporting both the 5.X and 7.X command sets.
+
+Restores: The Windows PowerShell command-line experience: an object pipeline, 114 built-in cmdlets, and .ps1 scripting, letting you drive Linux with PowerShell-style commands.
+
+- License: MIT
+- Authors: [SweetenedSuzuka](https://github.com/SweetenedSuzuka)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
+
 ### [aptx](https://github.com/WenAnrong/aptx)
 
 Intro: An enhanced apt wrapper that recommends similar software after installing/removing packages.
@@ -405,4 +417,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 10:03 UTC*
+*Generated at: 2026-08-16 11:13 UTC*
