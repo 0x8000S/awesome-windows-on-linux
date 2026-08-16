@@ -1,0 +1,19 @@
+{
+  "name": "Explorer-for-Linux (xbodwf)",
+  "intro": "基于 Electron + Vue 与 WinUI 风格 Web 组件构建的 Win11 风格 Linux 文件管理器。",
+  "restores": "Win11 资源管理器的界面与使用体验（Fluent/WinUI 视觉风格）。",
+  "license": "GPL-3.0",
+  "video": "",
+  "url": "https://github.com/xbodwf/explorer-for-linux",
+  "authors": [
+    {
+      "name": "xbodwf",
+      "url": "https://github.com/xbodwf"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "practical"
+}
