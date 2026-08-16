@@ -162,6 +162,18 @@ Restores: The Windows Notepad interface.
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1aigV6HETK
 
+### [openconsole_linux](https://github.com/lanlan1o/openconsole_linux) [Practical]
+
+Intro: A Linux port of Microsoft's Windows Terminal / OpenConsole terminal engine (~95% upstream code), hiding Windows API dependencies behind a lightweight compatibility layer, with a Qt6 terminal-grid frontend.
+
+Restores: The Windows Terminal / OpenConsole VT parsing and rendering engine (state machine, AdaptDispatch, Sixel, macro buffer, page management, IME, mouse reporting).
+
+- License: MIT
+- Authors: [lanlan1o](https://github.com/lanlan1o)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
+
 ### [regedit](https://github.com/heyManNice/regedit) [Practical]
 
 Intro: A system configuration file browser that maps `/etc`, `~/.config`, and `/boot` to a registry tree and auto-detects multiple config formats.
@@ -369,4 +381,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 00:40 UTC*
+*Generated at: 2026-08-16 09:27 UTC*

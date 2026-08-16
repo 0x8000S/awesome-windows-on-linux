@@ -1,0 +1,19 @@
+{
+  "name": "openconsole_linux",
+  "intro": "将微软 Windows Terminal / OpenConsole 的终端引擎移植到 Linux（约 95% 上游代码），通过轻量兼容层屏蔽 Windows API 依赖，前端用 Qt6 绘制终端网格。",
+  "restores": "Windows Terminal / OpenConsole 的 VT 解析与渲染引擎（状态机、AdaptDispatch、Sixel、宏缓冲、页面管理、IME、鼠标上报）。",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/lanlan1o/openconsole_linux",
+  "authors": [
+    {
+      "name": "lanlan1o",
+      "url": "https://github.com/lanlan1o"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "practical"
+}
