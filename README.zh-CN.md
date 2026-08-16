@@ -166,7 +166,7 @@
 
 介绍：将微软 Windows Terminal / OpenConsole 的终端引擎移植到 Linux（约 95% 上游代码），通过轻量兼容层屏蔽 Windows API 依赖，前端用 Qt6 绘制终端网格。
 
-还原的部分：Windows Terminal / OpenConsole 的 VT 解析与渲染引擎（状态机、AdaptDispatch、Sixel、宏缓冲、页面管理、IME、鼠标上报）。
+还原的部分：还原了 conhost。
 
 - 许可证：MIT
 - 作者：[lanlan1o](https://github.com/lanlan1o)
@@ -381,4 +381,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-16 09:27 UTC*
+*生成于: 2026-08-16 09:30 UTC*

@@ -166,7 +166,7 @@ Restores: The Windows Notepad interface.
 
 Intro: A Linux port of Microsoft's Windows Terminal / OpenConsole terminal engine (~95% upstream code), hiding Windows API dependencies behind a lightweight compatibility layer, with a Qt6 terminal-grid frontend.
 
-Restores: The Windows Terminal / OpenConsole VT parsing and rendering engine (state machine, AdaptDispatch, Sixel, macro buffer, page management, IME, mouse reporting).
+Restores: Restores conhost.
 
 - License: MIT
 - Authors: [lanlan1o](https://github.com/lanlan1o)
@@ -381,4 +381,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 09:27 UTC*
+*Generated at: 2026-08-16 09:30 UTC*
