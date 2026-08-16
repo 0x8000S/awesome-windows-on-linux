@@ -126,6 +126,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1jruf6QEmh
 
+### [Animated-plasma-task](https://github.com/SkyShadowHero/Animated-plasma-task) [实用]
+
+介绍：为 Linux (KDE) 任务栏添加 Windows 风格动画和装饰。
+
+还原的部分：Windows 任务栏的动画交互体验（图标按压缩放、最小化弹跳、窗口入场/退出动画、悬停高亮与指示条）。
+
+- 许可证：GPL-2.0
+- 作者：[SkyShadowHero](https://github.com/SkyShadowHero)
+- 主要语言：zh-CN
+- 支持语言：en-US / zh-CN
+- 介绍视频：（待补充）
+
 ### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [整活]
 
 介绍：在 Linux 上深度复刻 Win11 文件管理体验的桌面程序。
@@ -173,6 +185,18 @@
 - 主要语言：zh-CN
 - 支持语言：en-US / zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1aigV6HETK
+
+### [openconsole_linux](https://github.com/lanlan1o/openconsole_linux) [实用]
+
+介绍：将微软 Windows Terminal / OpenConsole 的终端引擎移植到 Linux（约 95% 上游代码），通过轻量兼容层屏蔽 Windows API 依赖，前端用 Qt6 绘制终端网格。
+
+还原的部分：还原了 conhost。
+
+- 许可证：MIT
+- 作者：[lanlan1o](https://github.com/lanlan1o)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1opbS6rE2g
 
 ### [regedit](https://github.com/heyManNice/regedit) [实用]
 
@@ -381,4 +405,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-16 00:40 UTC*
+*生成于: 2026-08-16 09:31 UTC*

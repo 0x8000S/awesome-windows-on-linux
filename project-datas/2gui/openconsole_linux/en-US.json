@@ -1,0 +1,19 @@
+{
+  "name": "openconsole_linux",
+  "intro": "A Linux port of Microsoft's Windows Terminal / OpenConsole terminal engine (~95% upstream code), hiding Windows API dependencies behind a lightweight compatibility layer, with a Qt6 terminal-grid frontend.",
+  "restores": "Restores conhost.",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1opbS6rE2g",
+  "url": "https://github.com/lanlan1o/openconsole_linux",
+  "authors": [
+    {
+      "name": "lanlan1o",
+      "url": "https://github.com/lanlan1o"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "practical"
+}

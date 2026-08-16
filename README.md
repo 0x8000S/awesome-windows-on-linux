@@ -126,6 +126,18 @@ Restores: Windows Taskbar Search and Indexing Features
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1jruf6QEmh
 
+### [Animated-plasma-task](https://github.com/SkyShadowHero/Animated-plasma-task) [Practical]
+
+Intro: Adds Windows-style animations and decorations to the Linux (KDE) taskbar.
+
+Restores: The Windows taskbar animation experience (icon press scale, minimize bounce, window entry/exit animations, hover highlight and indicator bar).
+
+- License: GPL-2.0
+- Authors: [SkyShadowHero](https://github.com/SkyShadowHero)
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
+- Intro video: (pending)
+
 ### [Explorer-for-Linux](https://github.com/macOS-Terminal/Explorer-for-Linux) [Prank]
 
 Intro: A desktop program that deeply replicates the Win11 file-management experience on Linux.
@@ -173,6 +185,18 @@ Restores: The Windows Notepad interface.
 - Primary language: zh-CN
 - Supported languages: en-US / zh-CN
 - Intro video: https://www.bilibili.com/video/BV1aigV6HETK
+
+### [openconsole_linux](https://github.com/lanlan1o/openconsole_linux) [Practical]
+
+Intro: A Linux port of Microsoft's Windows Terminal / OpenConsole terminal engine (~95% upstream code), hiding Windows API dependencies behind a lightweight compatibility layer, with a Qt6 terminal-grid frontend.
+
+Restores: Restores conhost.
+
+- License: MIT
+- Authors: [lanlan1o](https://github.com/lanlan1o)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1opbS6rE2g
 
 ### [regedit](https://github.com/heyManNice/regedit) [Practical]
 
