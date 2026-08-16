@@ -150,6 +150,18 @@ Restores: The Win11 File Explorer interface (including the classic 'Not Respondi
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1ZWgV68EtU
 
+### [Explorer-for-Linux (xbodwf)](https://github.com/xbodwf/explorer-for-linux) [Practical]
+
+Intro: A Windows 11 style file manager for Linux, built with Electron + Vue and WinUI-style web components.
+
+Restores: The Win11 File Explorer experience (Fluent/WinUI look and feel).
+
+- License: GPL-3.0
+- Authors: [xbodwf](https://github.com/xbodwf)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: (pending)
+
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [Practical]
 
 Intro: A cross-platform tool mimicking the Windows Management Console, built with tkinter.
@@ -393,4 +405,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 09:31 UTC*
+*Generated at: 2026-08-16 09:56 UTC*

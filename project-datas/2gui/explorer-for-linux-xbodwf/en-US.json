@@ -1,0 +1,19 @@
+{
+  "name": "Explorer-for-Linux (xbodwf)",
+  "intro": "A Windows 11 style file manager for Linux, built with Electron + Vue and WinUI-style web components.",
+  "restores": "The Win11 File Explorer experience (Fluent/WinUI look and feel).",
+  "license": "GPL-3.0",
+  "video": "",
+  "url": "https://github.com/xbodwf/explorer-for-linux",
+  "authors": [
+    {
+      "name": "xbodwf",
+      "url": "https://github.com/xbodwf"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "practical"
+}

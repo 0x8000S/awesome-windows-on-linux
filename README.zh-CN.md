@@ -150,6 +150,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1ZWgV68EtU
 
+### [Explorer-for-Linux (xbodwf)](https://github.com/xbodwf/explorer-for-linux) [实用]
+
+介绍：基于 Electron + Vue 与 WinUI 风格 Web 组件构建的 Win11 风格 Linux 文件管理器。
+
+还原的部分：Win11 资源管理器的界面与使用体验（Fluent/WinUI 视觉风格）。
+
+- 许可证：GPL-3.0
+- 作者：[xbodwf](https://github.com/xbodwf)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：（待补充）
+
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [实用]
 
 介绍：仿 Windows 管理控制台的跨平台工具，基于 tkinter 实现。
