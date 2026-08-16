@@ -1,0 +1,17 @@
+{
+    "name": "Linux-Auto-Fix",
+    "url": "https://github.com/xusk1234/Linux-Auto-Fix",
+    "intro": "让Linux用户也能体验好用的自动修复",
+    "restores": "启动修复",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xusk1234",
+            "url": "https://github.com/xusk1234"
+        }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN"],
+    "intent": "prank",
+    "video": "https://www.bilibili.com/video/BV1G5b86jEbJ/"
+}

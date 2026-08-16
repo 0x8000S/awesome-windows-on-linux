@@ -101,6 +101,18 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 > Graphical apps that recreate Windows desktop interfaces.
 
+### [Devices Manager for Linux](https://github.com/xusk1234/Devices-Manager-for-Linux) [Prank]
+
+Intro: A device manager for Linux
+
+Restores: Device Manager
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1k2b16zEGe/
+
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
 Intro: I fixed the bug where the control panel couldn't be used on Linux. 
@@ -113,6 +125,30 @@ Restores: Control
 - Primary language: zh-CN
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
+
+### [Linux-Auto-Fix](https://github.com/xusk1234/Linux-Auto-Fix) [Prank]
+
+Intro: A handy auto-repair tool for Linux users
+
+Restores: Startup Repair
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1G5b86jEbJ/
+
+### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
+
+Intro: A non-functional antivirus software for Linux
+
+Restores: Windows Defender
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1hrgs6mETH/
 
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
@@ -429,4 +465,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 14:59 UTC*
+*Generated at: 2026-08-16 19:27 UTC*
