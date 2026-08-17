@@ -1,0 +1,17 @@
+{
+    "name": "LinuxDefender",
+    "url": "https://github.com/xusk1234/LinuxDefender",
+    "intro": "A non-functional antivirus software for Linux",
+    "restores": "Windows Defender",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xusk1234",
+            "url": "https://github.com/xusk1234"
+        }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN"],
+    "intent": "prank",
+    "video": "https://www.bilibili.com/video/BV1hrgs6mETH/"
+}
