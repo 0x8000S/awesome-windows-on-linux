@@ -113,6 +113,30 @@
 
 > 复刻 Windows 桌面界面的图形应用程序。
 
+### [Devices Manager for Linux](https://github.com/xusk1234/Devices-Manager-for-Linux) [整活]
+
+介绍：这是一款Linux上的设备管理器
+
+还原的部分：设备管理器
+
+- 许可证：MIT
+- 作者：[xusk1234](https://github.com/xusk1234)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1k2b16zEGe/
+
+### [Lindows Troubleshooting](https://github.com/BobbyChengCN0518/Lindows-Troubleshooting) [整活]
+
+介绍：我修复了Linux上不能使用疑难解答浪费时间的Bug，请谨慎打开这个程序，因为它将会浪费您生命中宝贵的1分钟
+
+还原的部分：疑难解答
+
+- 许可证：MIT
+- 作者：[BobbyChengCN0518](https://github.com/BobbyChengCN0518)
+- 主要语言：zh-CN
+- 支持语言：zh-CN / en-US
+- 介绍视频：（待补充）
+
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [整活]
 
 介绍：我修复了Linux上不能使用控制面板的Bug 
@@ -125,6 +149,30 @@
 - 主要语言：zh-CN
 - 支持语言：zh-CN / en-US
 - 介绍视频：（待补充）
+
+### [Linux-Auto-Fix](https://github.com/xusk1234/Linux-Auto-Fix) [整活]
+
+介绍：让Linux用户也能体验好用的自动修复
+
+还原的部分：启动修复
+
+- 许可证：MIT
+- 作者：[xusk1234](https://github.com/xusk1234)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1G5b86jEbJ/
+
+### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [整活]
+
+介绍：这是一款无法使用的Linux杀毒软件
+
+还原的部分：Windows Defender
+
+- 许可证：MIT
+- 作者：[xusk1234](https://github.com/xusk1234)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1hrgs6mETH/
 
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
@@ -197,6 +245,18 @@
 - 主要语言：zh-CN
 - 支持语言：zh-CN
 - 介绍视频：（待补充）
+
+### [linux-winver](https://github.com/DeepslateQAQ/linux-winver) [整活]
+
+介绍：我修复了 Linux 非 KDE 桌面环境没有 winver 的 bug
+
+还原的部分：winver
+
+- 许可证：GPL-3.0
+- 作者：[DeepslateQAQ](https://github.com/DeepslateQAQ)
+- 主要语言：en-US
+- 支持语言：en-US / zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV143b96iEKx/
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [实用]
 
@@ -441,4 +501,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-17 05:52 UTC*
+*生成于: 2026-08-17 09:18 UTC*
