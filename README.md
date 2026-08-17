@@ -186,6 +186,18 @@ Restores: The Win11 File Explorer experience (Fluent/WinUI look and feel).
 - Supported languages: zh-CN
 - Intro video: (pending)
 
+### [linux-winver](https://github.com/DeepslateQAQ/linux-winver) [Prank]
+
+Intro: I fixed the bug where Linux non-KDE desktop environments don't have winver.
+
+Restores: winver
+
+- License: GPL-3.0
+- Authors: [DeepslateQAQ](https://github.com/DeepslateQAQ)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV143b96iEKx/
+
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [Practical]
 
 Intro: A cross-platform tool mimicking the Windows Management Console, built with tkinter.
@@ -429,4 +441,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-17 00:38 UTC*
+*Generated at: 2026-08-17 01:24 UTC*
