@@ -126,6 +126,30 @@ Restores: Control
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
+### [Linux-Auto-Fix](https://github.com/xusk1234/Linux-Auto-Fix) [Prank]
+
+Intro: A handy auto-repair tool for Linux users
+
+Restores: Startup Repair
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1G5b86jEbJ/
+
+### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
+
+Intro: A non-functional antivirus software for Linux
+
+Restores: Windows Defender
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV1hrgs6mETH/
+
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
 Intro: A standalone software designed to provide a Windows-style system performance assessment and experience index.
@@ -197,6 +221,18 @@ Restores: The Win11 File Explorer experience (Fluent/WinUI look and feel).
 - Primary language: zh-CN
 - Supported languages: zh-CN
 - Intro video: (pending)
+
+### [linux-winver](https://github.com/DeepslateQAQ/linux-winver) [Prank]
+
+Intro: I fixed the bug where Linux non-KDE desktop environments don't have winver.
+
+Restores: winver
+
+- License: GPL-3.0
+- Authors: [DeepslateQAQ](https://github.com/DeepslateQAQ)
+- Primary language: en-US
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV143b96iEKx/
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [Practical]
 
