@@ -61,6 +61,18 @@ Restores: The Windows PowerShell command-line experience: an object pipeline, 11
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
+### [Winget-for-Linux](https://github.com/jihan-hanhan/Winget-for-Linux) [Prank]
+
+Intro: A shell script wrapper that brings the Winget CLI experience to Linux.
+
+Restores: Winget from App Installer (https://apps.microsoft.com/detail/9nblggh4nns1)
+
+- License: MIT
+- Authors: [jihan-hanhan](https://github.com/jihan-hanhan/)
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV1S1b96GEXb
+
 ### [aptx](https://github.com/WenAnrong/aptx)
 
 Intro: An enhanced apt wrapper that recommends similar software after installing/removing packages.
@@ -101,18 +113,6 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 > Graphical apps that recreate Windows desktop interfaces.
 
-### [Lindows Troubleshooting](https://github.com/BobbyChengCN0518/Lindows-Troubleshooting) [Prank]
-
-Intro: I fixed the bug that prevented using Troubleshooting on Linux and wasted time. Please be cautious when opening this program, as it will waste one precious minute of your life.
-
-Restores: Troubleshooting
-
-- License: MIT
-- Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
-- Primary language: zh-CN
-- Supported languages: zh-CN / en-US
-- Intro video: (pending)
-
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
 Intro: I fixed the bug where the control panel couldn't be used on Linux. 
@@ -125,30 +125,6 @@ Restores: Control
 - Primary language: zh-CN
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
-
-### [Linux-Auto-Fix](https://github.com/xusk1234/Linux-Auto-Fix) [Prank]
-
-Intro: A handy auto-repair tool for Linux users
-
-Restores: Startup Repair
-
-- License: MIT
-- Authors: [xusk1234](https://github.com/xusk1234)
-- Primary language: zh-CN
-- Supported languages: zh-CN
-- Intro video: https://www.bilibili.com/video/BV1G5b86jEbJ/
-
-### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
-
-Intro: A non-functional antivirus software for Linux
-
-Restores: Windows Defender
-
-- License: MIT
-- Authors: [xusk1234](https://github.com/xusk1234)
-- Primary language: zh-CN
-- Supported languages: zh-CN
-- Intro video: https://www.bilibili.com/video/BV1hrgs6mETH/
 
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
@@ -221,18 +197,6 @@ Restores: The Win11 File Explorer experience (Fluent/WinUI look and feel).
 - Primary language: zh-CN
 - Supported languages: zh-CN
 - Intro video: (pending)
-
-### [linux-winver](https://github.com/DeepslateQAQ/linux-winver) [Prank]
-
-Intro: I fixed the bug where Linux non-KDE desktop environments don't have winver.
-
-Restores: winver
-
-- License: GPL-3.0
-- Authors: [DeepslateQAQ](https://github.com/DeepslateQAQ)
-- Primary language: en-US
-- Supported languages: en-US / zh-CN
-- Intro video: https://www.bilibili.com/video/BV143b96iEKx/
 
 ### [mmclinux](https://gitee.com/windowsuninstaller/mmclinux) [Practical]
 
@@ -477,4 +441,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-17 09:05 UTC*
+*Generated at: 2026-08-17 05:49 UTC*

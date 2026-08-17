@@ -1,0 +1,20 @@
+{
+  "name": "Winget-for-Linux",
+  "intro": "A shell script wrapper that brings the Winget CLI experience to Linux.",
+  "restores": "Winget from App Installer (https://apps.microsoft.com/detail/9nblggh4nns1)",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1S1b96GEXb",
+  "url": "https://github.com/jihan-hanhan/Winget-for-Linux",
+  "authors": [
+    {
+      "name" : "jihan-hanhan",
+      "url" : "https://github.com/jihan-hanhan/"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "prank"
+}

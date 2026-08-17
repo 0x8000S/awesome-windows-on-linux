@@ -61,6 +61,18 @@
 - 支持语言：zh-CN / en-US
 - 介绍视频：（待补充）
 
+### [Winget-for-Linux](https://github.com/jihan-hanhan/Winget-for-Linux) [整活]
+
+介绍：使用shell脚本将Winget搬运到Linux上
+
+还原的部分：App Installer(https://apps.microsoft.com/detail/9nblggh4nns1)中的Winget
+
+- 许可证：MIT
+- 作者：[jihan-hanhan](https://github.com/jihan-hanhan/)
+- 主要语言：zh-CN
+- 支持语言：en-US / zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1S1b96GEXb
+
 ### [aptx](https://github.com/WenAnrong/aptx)
 
 介绍：apt 的增强封装，装 / 卸软件后自动推荐同类软件。
@@ -429,4 +441,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-17 00:38 UTC*
+*生成于: 2026-08-17 05:52 UTC*
