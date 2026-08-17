@@ -1,0 +1,15 @@
+{
+  "name": "linux-winver",
+  "intro": "I fixed the bug where Linux non-KDE desktop environments don't have winver.",
+  "restores": "winver",
+  "license": "GPL-3.0",
+  "video": "https://www.bilibili.com/video/BV143b96iEKx/",
+  "url": "https://github.com/DeepslateQAQ/linux-winver",
+  "authors": [{"name": "DeepslateQAQ", "url": "https://github.com/DeepslateQAQ"}],
+  "lang_primary": "en-US",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "prank"
+}
