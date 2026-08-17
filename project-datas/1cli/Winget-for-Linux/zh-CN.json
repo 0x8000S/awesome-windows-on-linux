@@ -1,0 +1,20 @@
+{
+  "name": "Winget-for-Linux",
+  "intro": "使用shell脚本将Winget搬运到Linux上",
+  "restores": "App Installer(https://apps.microsoft.com/detail/9nblggh4nns1)中的Winget",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1S1b96GEXb",
+  "url": "https://github.com/jihan-hanhan/Winget-for-Linux",
+  "authors": [
+    {
+      "name" : "jihan-hanhan",
+      "url" : "https://github.com/jihan-hanhan/"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "prank"
+}

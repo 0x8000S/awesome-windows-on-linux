@@ -61,6 +61,18 @@ Restores: The Windows PowerShell command-line experience: an object pipeline, 11
 - Supported languages: zh-CN / en-US
 - Intro video: (pending)
 
+### [Winget-for-Linux](https://github.com/jihan-hanhan/Winget-for-Linux) [Prank]
+
+Intro: A shell script wrapper that brings the Winget CLI experience to Linux.
+
+Restores: Winget from App Installer (https://apps.microsoft.com/detail/9nblggh4nns1)
+
+- License: MIT
+- Authors: [jihan-hanhan](https://github.com/jihan-hanhan/)
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV1S1b96GEXb
+
 ### [aptx](https://github.com/WenAnrong/aptx)
 
 Intro: An enhanced apt wrapper that recommends similar software after installing/removing packages.
@@ -429,4 +441,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-17 00:38 UTC*
+*Generated at: 2026-08-17 05:49 UTC*
