@@ -1,0 +1,15 @@
+{
+  "name": "Lindows Troubleshooting",
+  "intro": "我修复了Linux上不能使用疑难解答浪费时间的Bug，请谨慎打开这个程序，因为它将会浪费您生命中宝贵的1分钟",
+  "restores": "疑难解答",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/BobbyChengCN0518/Lindows-Troubleshooting",
+  "authors": [{"name": "BobbyChengCN0518", "url": "https://github.com/BobbyChengCN0518"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ],
+  "intent": "prank"
+}

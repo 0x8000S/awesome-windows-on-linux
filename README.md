@@ -101,17 +101,17 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 > Graphical apps that recreate Windows desktop interfaces.
 
-### [Devices Manager for Linux](https://github.com/xusk1234/Devices-Manager-for-Linux) [Prank]
+### [Lindows Troubleshooting](https://github.com/BobbyChengCN0518/Lindows-Troubleshooting) [Prank]
 
-Intro: A device manager for Linux
+Intro: I fixed the bug that prevented using Troubleshooting on Linux and wasted time. Please be cautious when opening this program, as it will waste one precious minute of your life.
 
-Restores: Device Manager
+Restores: Troubleshooting
 
 - License: MIT
-- Authors: [xusk1234](https://github.com/xusk1234)
+- Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
 - Primary language: zh-CN
-- Supported languages: zh-CN
-- Intro video: https://www.bilibili.com/video/BV1k2b16zEGe/
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
 
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
@@ -477,4 +477,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-16 19:27 UTC*
+*Generated at: 2026-08-17 09:05 UTC*
