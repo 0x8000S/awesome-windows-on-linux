@@ -101,6 +101,18 @@ Restores: 24 Windows command-line tools (ipconfig / ping / robocopy / systeminfo
 
 > Graphical apps that recreate Windows desktop interfaces.
 
+### [Lindows Troubleshooting](https://github.com/BobbyChengCN0518/Lindows-Troubleshooting) [Prank]
+
+Intro: I fixed the bug that prevented using Troubleshooting on Linux and wasted time. Please be cautious when opening this program, as it will waste one precious minute of your life.
+
+Restores: Troubleshooting
+
+- License: MIT
+- Authors: [BobbyChengCN0518](https://github.com/BobbyChengCN0518)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
+
 ### [Lindows_Control](https://github.com/BobbyChengCN0518/Lindows_Control) [Prank]
 
 Intro: I fixed the bug where the control panel couldn't be used on Linux. 
@@ -429,4 +441,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-17 00:38 UTC*
+*Generated at: 2026-08-17 09:05 UTC*

@@ -1,0 +1,15 @@
+{
+  "name": "Lindows Troubleshooting",
+  "intro": "I fixed the bug that prevented using Troubleshooting on Linux and wasted time. Please be cautious when opening this program, as it will waste one precious minute of your life.",
+  "restores": "Troubleshooting",
+  "license": "MIT",
+  "video": "",
+  "url": "https://github.com/BobbyChengCN0518/Lindows-Troubleshooting",
+  "authors": [{"name": "BobbyChengCN0518", "url": "https://github.com/BobbyChengCN0518"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ],
+  "intent": "prank"
+}
