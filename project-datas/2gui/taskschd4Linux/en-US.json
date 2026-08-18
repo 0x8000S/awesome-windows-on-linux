@@ -1,0 +1,19 @@
+{
+  "name": "taskschd4Linux",
+  "intro": "A Windows Task Scheduler implemented in Python, featuring an MMC-style interface layout and supporting cron and systemd timers.",
+  "restores": "Windows Task Scheduler, Most of the UI and behavior",
+  "license": "LGPL-2.1",
+  "video": "https://www.bilibili.com/video/BV18UbY6SE7f/",
+  "url": "https://github.com/1ctrl-cv/taskschd4Linux",
+  "authors": [
+    {
+      "name": "B84F2246",
+      "url": "https://github.com/1ctrl-cv"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN"
+  ],
+  "intent": "practical"
+}
