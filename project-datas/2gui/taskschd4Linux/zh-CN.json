@@ -1,7 +1,7 @@
 {
   "name": "taskschd4Linux",
   "intro": "使用 Python 复刻的 Windows 任务计划程序，MMC 风格布局，支持 cron 与 systemd 定时器。",
-  "restores": "大部分 UI 和行为",
+  "restores": "Windows 任务计划程序大部分 UI 和行为",
   "license": "LGPL-2.1",
   "video": "https://www.bilibili.com/video/BV18UbY6SE7f/",
   "url": "https://github.com/1ctrl-cv/taskschd4Linux",
