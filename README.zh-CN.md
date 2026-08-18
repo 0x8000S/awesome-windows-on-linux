@@ -346,7 +346,7 @@
 
 介绍：使用 Python 复刻的 Windows 任务计划程序，MMC 风格布局，支持 cron 与 systemd 定时器。
 
-还原的部分：大部分 UI 和行为
+还原的部分：Windows 任务计划程序大部分 UI 和行为
 
 - 许可证：LGPL-2.1
 - 作者：[B84F2246](https://github.com/1ctrl-cv)
@@ -525,4 +525,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-18 05:58 UTC*
+*生成于: 2026-08-18 10:32 UTC*

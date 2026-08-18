@@ -346,7 +346,7 @@ Restores: The Windows 11 secure attention screen (lock / switch user / log out /
 
 Intro: A Windows Task Scheduler implemented in Python, featuring an MMC-style interface layout and supporting cron and systemd timers.
 
-Restores: Most of the UI and behavior
+Restores: Windows Task Scheduler, Most of the UI and behavior
 
 - License: LGPL-2.1
 - Authors: [B84F2246](https://github.com/1ctrl-cv)
@@ -525,4 +525,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-18 05:27 UTC*
+*Generated at: 2026-08-18 10:32 UTC*
