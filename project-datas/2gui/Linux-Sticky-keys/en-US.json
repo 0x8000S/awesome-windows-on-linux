@@ -11,7 +11,7 @@
         }
     ],
     "lang_primary": "zh-CN",
-    "lang_supported": ["zh-CN", "en-US"],
+    "lang_supported": ["zh-CN"],
     "intent": "prank",
     "video": "https://www.bilibili.com/video/BV1yebr6wEj4/"
 }
