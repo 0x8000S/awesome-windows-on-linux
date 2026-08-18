@@ -162,6 +162,18 @@ Restores: Startup Repair
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1G5b86jEbJ/
 
+### [Linux-Sticky-key](https://github.com/xusk1234/Linux-Sticky-key) [Prank]
+
+Intro: A sticky key experience for Linux users
+
+Restores: Windows Sticky Keys
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: https://www.bilibili.com/video/BV1yebr6wEj4/
+
 ### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
 
 Intro: A non-functional antivirus software for Linux
@@ -501,4 +513,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-18 00:37 UTC*
+*Generated at: 2026-08-18 04:42 UTC*
