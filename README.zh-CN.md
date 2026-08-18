@@ -162,6 +162,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1G5b86jEbJ/
 
+### [Linux-Sticky-key](https://github.com/xusk1234/Linux-Sticky-key) [整活]
+
+介绍：让Linux用户也能体验粘滞键的烦恼
+
+还原的部分：Windows 粘滞键
+
+- 许可证：MIT
+- 作者：[xusk1234](https://github.com/xusk1234)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1yebr6wEj4/
+
 ### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [整活]
 
 介绍：这是一款无法使用的Linux杀毒软件
@@ -513,4 +525,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-18 03:24 UTC*
+*生成于: 2026-08-18 05:58 UTC*

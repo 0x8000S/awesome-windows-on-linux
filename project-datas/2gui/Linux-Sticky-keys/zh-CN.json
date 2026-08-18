@@ -1,0 +1,17 @@
+{
+    "name": "Linux-Sticky-key",
+    "url": "https://github.com/xusk1234/Linux-Sticky-key",
+    "intro": "让Linux用户也能体验粘滞键的烦恼",
+    "restores": "Windows 粘滞键",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xusk1234",
+            "url": "https://github.com/xusk1234"
+        }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN"],
+    "intent": "prank",
+    "video": "https://www.bilibili.com/video/BV1yebr6wEj4/"
+}
