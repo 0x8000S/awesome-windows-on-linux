@@ -330,6 +330,18 @@ Restores: The Windows 11 secure attention screen (lock / switch user / log out /
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1FQgn6sERt
 
+### [taskschd4Linux](https://github.com/1ctrl-cv/taskschd4Linux) [Practical]
+
+Intro: A Windows Task Scheduler implemented in Python, featuring an MMC-style interface layout and supporting cron and systemd timers.
+
+Restores: Most of the UI and behavior
+
+- License: LGPL-2.1
+- Authors: [B84F2246](https://github.com/1ctrl-cv)
+- Primary language: zh-CN
+- Supported languages: zh-CN
+- Intro video: https://www.bilibili.com/video/BV18UbY6SE7f/
+
 ## System Interaction
 
 > Projects that hook into system services: PAM modules, popups, global hotkeys.
@@ -501,4 +513,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-18 00:37 UTC*
+*Generated at: 2026-08-18 03:22 UTC*
