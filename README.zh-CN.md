@@ -342,6 +342,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1FQgn6sERt
 
+### [taskschd4Linux](https://github.com/1ctrl-cv/taskschd4Linux) [实用]
+
+介绍：使用 Python 复刻的 Windows 任务计划程序，MMC 风格布局，支持 cron 与 systemd 定时器。
+
+还原的部分：大部分 UI 和行为
+
+- 许可证：LGPL-2.1
+- 作者：[B84F2246](https://github.com/1ctrl-cv)
+- 主要语言：zh-CN
+- 支持语言：zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV18UbY6SE7f/
+
 ## 系统交互
 
 > 嵌入系统服务层的项目：PAM 模块、弹窗、全局热键。
