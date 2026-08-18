@@ -171,7 +171,7 @@ Restores: Windows Sticky Keys
 - License: MIT
 - Authors: [xusk1234](https://github.com/xusk1234)
 - Primary language: zh-CN
-- Supported languages: zh-CN / en-US
+- Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1yebr6wEj4/
 
 ### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
