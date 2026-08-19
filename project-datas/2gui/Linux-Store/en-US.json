@@ -1,0 +1,17 @@
+{
+    "name": "Linux-Store",
+    "url": "https://github.com/xusk1234/Linux-Store",
+    "intro": "A Microsoft Store experience for Linux users",
+    "restores": "Windows Store",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xusk1234",
+            "url": "https://github.com/xusk1234"
+        }
+    ],
+    "lang_primary": "zh-CN",
+    "lang_supported": ["zh-CN", "en-US"],
+    "intent": "prank",
+    "video": "https://www.bilibili.com/video/BV1Ei8n6PEe7/"
+}

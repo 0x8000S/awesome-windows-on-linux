@@ -174,6 +174,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1yebr6wEj4/
 
+### [Linux-Store](https://github.com/xusk1234/Linux-Store) [整活]
+
+介绍：让Linux用户也能体验巨硬商店的美味
+
+还原的部分：Windows 商店
+
+- 许可证：MIT
+- 作者：[xusk1234](https://github.com/xusk1234)
+- 主要语言：zh-CN
+- 支持语言：zh-CN / en-US
+- 介绍视频：https://www.bilibili.com/video/BV1Ei8n6PEe7/
+
 ### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [整活]
 
 介绍：这是一款无法使用的Linux杀毒软件
@@ -434,18 +446,6 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1p1gE6DEVF
 
-### [LSW](https://github.com/LING71671/lsw) [实用]
-
-介绍：专为 Linux 设计的高性能 Windows 子系统平台（Linux Subsystem for Windows），纯 Rust 实现，100% 架构级对齐微软 WSL。官方站点与在线终端 Playground：https://lsw.int0.cc
-
-还原的部分：WSL1/WSL2/WSLg 架构生态（PE 二进制内核拦截执行、lswpath 跨系统路径翻译、LSWENV 环境变量管道、ConPTY 双向桥接、双引擎自路由）。
-
-- 许可证：MIT
-- 作者：[LING71671](https://github.com/LING71671)
-- 主要语言：zh-CN
-- 支持语言：zh-CN / en-US
-- 介绍视频：（待补充）
-
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux) [整活]
 
 介绍：伪 Windows 更新界面的整活程序，每次运行 50% 真更新重启、50% 蓝屏。
@@ -537,4 +537,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-19 08:54 UTC*
+*生成于: 2026-08-19 12:13 UTC*
