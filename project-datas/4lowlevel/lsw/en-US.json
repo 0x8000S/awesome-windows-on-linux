@@ -1,0 +1,19 @@
+{
+  "name": "LSW",
+  "intro": "A production-grade Linux Subsystem for Windows written in pure Rust, providing 100% architectural and operational parity with Microsoft WSL. Official website & playground: https://lsw.int0.cc",
+  "restores": "WSL1/WSL2/WSLg ecosystem on Linux (kernel-level PE execution, lswpath path translation, LSWENV cross-environment pipeline, ConPTY bridge, Smart Dual-Engine Auto-Routing).",
+  "license": "MIT",
+  "url": "https://github.com/LING71671/lsw",
+  "authors": [
+    {
+      "name": "LING71671",
+      "url": "https://github.com/LING71671"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ],
+  "intent": "practical"
+}

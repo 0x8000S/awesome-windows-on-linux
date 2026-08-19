@@ -1,0 +1,19 @@
+{
+  "name": "LSW",
+  "intro": "专为 Linux 设计的高性能 Windows 子系统平台（Linux Subsystem for Windows），纯 Rust 实现，100% 架构级对齐微软 WSL。官方站点与在线终端 Playground：https://lsw.int0.cc",
+  "restores": "WSL1/WSL2/WSLg 架构生态（PE 二进制内核拦截执行、lswpath 跨系统路径翻译、LSWENV 环境变量管道、ConPTY 双向桥接、双引擎自路由）。",
+  "license": "MIT",
+  "url": "https://github.com/LING71671/lsw",
+  "authors": [
+    {
+      "name": "LING71671",
+      "url": "https://github.com/LING71671"
+    }
+  ],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "zh-CN",
+    "en-US"
+  ],
+  "intent": "practical"
+}
