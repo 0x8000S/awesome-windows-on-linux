@@ -446,6 +446,18 @@ Restores: PE / ELF file format structures (header, section table, program header
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1p1gE6DEVF
 
+### [LSW](https://github.com/LING71671/lsw) [Practical]
+
+Intro: A production-grade Linux Subsystem for Windows written in pure Rust, providing 100% architectural and operational parity with Microsoft WSL. Official website & playground: https://lsw.int0.cc
+
+Restores: WSL1/WSL2/WSLg ecosystem on Linux (kernel-level PE execution, lswpath path translation, LSWENV cross-environment pipeline, ConPTY bridge, Smart Dual-Engine Auto-Routing).
+
+- License: MIT
+- Authors: [LING71671](https://github.com/LING71671)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: (pending)
+
 ### [windows_update_in_linux](https://github.com/WenAnrong/windows_update_in_linux) [Prank]
 
 Intro: A prank program showing a fake Windows update screen: 50% chance of a real update+reboot, 50% chance of a blue screen.
@@ -537,4 +549,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-19 12:13 UTC*
+*Generated at: 2026-08-19 12:53 UTC*
