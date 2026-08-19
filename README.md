@@ -174,6 +174,18 @@ Restores: Windows Sticky Keys
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1yebr6wEj4/
 
+### [Linux-Store](https://github.com/xusk1234/Linux-Store) [Prank]
+
+Intro: A Microsoft Store experience for Linux users
+
+Restores: Windows Store
+
+- License: MIT
+- Authors: [xusk1234](https://github.com/xusk1234)
+- Primary language: zh-CN
+- Supported languages: zh-CN / en-US
+- Intro video: https://www.bilibili.com/video/BV1Ei8n6PEe7/
+
 ### [LinuxDefender](https://github.com/xusk1234/LinuxDefender) [Prank]
 
 Intro: A non-functional antivirus software for Linux
@@ -525,4 +537,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-19 00:37 UTC*
+*Generated at: 2026-08-19 11:25 UTC*
