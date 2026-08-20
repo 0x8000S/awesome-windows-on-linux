@@ -1,0 +1,15 @@
+{
+  "name": "UMessageBox",
+  "intro": "我修复了Linux上没有UWP弹窗的BUG",
+  "restores": "Windows10的UWP弹窗",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1QLbD6KEiU",
+  "url": "https://github.com/0x8000S/UMessageBox",
+  "authors": [{"name": "0x8000S", "url": "https://github.com/0x8000S"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "practical"
+}

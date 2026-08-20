@@ -1,0 +1,15 @@
+{
+  "name": "UMessageBox",
+  "intro": "I fixed the bug where UWP pop-ups didn't show up on Linux",
+  "restores": "UWP pop-up on Windows 10",
+  "license": "MIT",
+  "video": "https://www.bilibili.com/video/BV1QLbD6KEiU",
+  "url": "https://github.com/0x8000S/UMessageBox",
+  "authors": [{"name": "0x8000S", "url": "https://github.com/0x8000S"}],
+  "lang_primary": "zh-CN",
+  "lang_supported": [
+    "en-US",
+    "zh-CN"
+  ],
+  "intent": "practical"
+}

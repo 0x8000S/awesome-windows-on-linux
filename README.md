@@ -198,6 +198,18 @@ Restores: Windows Defender
 - Supported languages: zh-CN
 - Intro video: https://www.bilibili.com/video/BV1hrgs6mETH/
 
+### [UMessageBox](https://github.com/0x8000S/UMessageBox) [Practical]
+
+Intro: I fixed the bug where UWP pop-ups didn't show up on Linux
+
+Restores: UWP pop-up on Windows 10
+
+- License: MIT
+- Authors: [0x8000S](https://github.com/0x8000S)
+- Primary language: zh-CN
+- Supported languages: en-US / zh-CN
+- Intro video: https://www.bilibili.com/video/BV1QLbD6KEiU
+
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
 Intro: A standalone software designed to provide a Windows-style system performance assessment and experience index.
@@ -549,4 +561,4 @@ Create the Pull Request; it merges once all Actions pass.
 [MIT](LICENSE) © 2026 windowix
 
 
-*Generated at: 2026-08-20 00:37 UTC*
+*Generated at: 2026-08-20 05:26 UTC*
