@@ -198,6 +198,18 @@
 - 支持语言：zh-CN
 - 介绍视频：https://www.bilibili.com/video/BV1hrgs6mETH/
 
+### [UMessageBox](https://github.com/0x8000S/UMessageBox) [实用]
+
+介绍：我修复了Linux上没有UWP弹窗的BUG
+
+还原的部分：Windows10的UWP弹窗
+
+- 许可证：MIT
+- 作者：[0x8000S](https://github.com/0x8000S)
+- 主要语言：zh-CN
+- 支持语言：en-US / zh-CN
+- 介绍视频：https://www.bilibili.com/video/BV1QLbD6KEiU
+
 ### [WinSAT for *nix](https://github.com/WhatDamon/WinSAT)
 
 介绍：为 *nix 提供 Windows 风味的系统评测体验和体验指数
@@ -549,4 +561,4 @@ git push
 [MIT](LICENSE) © 2026 windowix
 
 
-*生成于: 2026-08-20 00:37 UTC*
+*生成于: 2026-08-20 05:43 UTC*
